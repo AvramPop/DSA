@@ -1,1 +1,1 @@
-/usr/bin/g++  -g   CMakeFiles/lab1.dir/main.cpp.o CMakeFiles/lab1.dir/Bag.cpp.o  -o lab1 
+/usr/bin/g++  -g   CMakeFiles/lab1.dir/main.cpp.o CMakeFiles/lab1.dir/test/DAIterator.cpp.o CMakeFiles/lab1.dir/test/DynamicArray.cpp.o  -o lab1 

@@ -48,10 +48,10 @@ RM = /home/dani/Desktop/sources/clion-2018.3/bin/cmake/linux/bin/cmake -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dani/Desktop/code/faculta/dsa/lab1
+CMAKE_SOURCE_DIR = /home/dani/Desktop/code/faculta/DSA/lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dani/Desktop/code/faculta/dsa/lab1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dani/Desktop/code/faculta/dsa/lab1/cmake-build-debug/CMakeFiles /home/dani/Desktop/code/faculta/dsa/lab1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles /home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dani/Desktop/code/faculta/dsa/lab1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,33 +123,6 @@ lab1/fast:
 	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/build
 .PHONY : lab1/fast
 
-Bag.o: Bag.cpp.o
-
-.PHONY : Bag.o
-
-# target to build an object file
-Bag.cpp.o:
-	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/Bag.cpp.o
-.PHONY : Bag.cpp.o
-
-Bag.i: Bag.cpp.i
-
-.PHONY : Bag.i
-
-# target to preprocess a source file
-Bag.cpp.i:
-	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/Bag.cpp.i
-.PHONY : Bag.cpp.i
-
-Bag.s: Bag.cpp.s
-
-.PHONY : Bag.s
-
-# target to generate assembly for a file
-Bag.cpp.s:
-	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/Bag.cpp.s
-.PHONY : Bag.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -177,6 +150,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test/DAIterator.o: test/DAIterator.cpp.o
+
+.PHONY : test/DAIterator.o
+
+# target to build an object file
+test/DAIterator.cpp.o:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/test/DAIterator.cpp.o
+.PHONY : test/DAIterator.cpp.o
+
+test/DAIterator.i: test/DAIterator.cpp.i
+
+.PHONY : test/DAIterator.i
+
+# target to preprocess a source file
+test/DAIterator.cpp.i:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/test/DAIterator.cpp.i
+.PHONY : test/DAIterator.cpp.i
+
+test/DAIterator.s: test/DAIterator.cpp.s
+
+.PHONY : test/DAIterator.s
+
+# target to generate assembly for a file
+test/DAIterator.cpp.s:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/test/DAIterator.cpp.s
+.PHONY : test/DAIterator.cpp.s
+
+test/DynamicArray.o: test/DynamicArray.cpp.o
+
+.PHONY : test/DynamicArray.o
+
+# target to build an object file
+test/DynamicArray.cpp.o:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/test/DynamicArray.cpp.o
+.PHONY : test/DynamicArray.cpp.o
+
+test/DynamicArray.i: test/DynamicArray.cpp.i
+
+.PHONY : test/DynamicArray.i
+
+# target to preprocess a source file
+test/DynamicArray.cpp.i:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/test/DynamicArray.cpp.i
+.PHONY : test/DynamicArray.cpp.i
+
+test/DynamicArray.s: test/DynamicArray.cpp.s
+
+.PHONY : test/DynamicArray.s
+
+# target to generate assembly for a file
+test/DynamicArray.cpp.s:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/test/DynamicArray.cpp.s
+.PHONY : test/DynamicArray.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... lab1"
 	@echo "... edit_cache"
-	@echo "... Bag.o"
-	@echo "... Bag.i"
-	@echo "... Bag.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test/DAIterator.o"
+	@echo "... test/DAIterator.i"
+	@echo "... test/DAIterator.s"
+	@echo "... test/DynamicArray.o"
+	@echo "... test/DynamicArray.i"
+	@echo "... test/DynamicArray.s"
 .PHONY : help
 
 

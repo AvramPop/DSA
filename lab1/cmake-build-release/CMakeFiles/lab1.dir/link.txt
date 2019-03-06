@@ -1,0 +1,1 @@
+/usr/bin/g++  -O3 -DNDEBUG   CMakeFiles/lab1.dir/main.cpp.o CMakeFiles/lab1.dir/test/DAIterator.cpp.o CMakeFiles/lab1.dir/test/DynamicArray.cpp.o  -o lab1 

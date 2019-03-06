@@ -26,9 +26,9 @@ int Bag::size() const {
     return 0;
 }
 
-//BagIterator Bag::iterator() const {
+BagIterator Bag::iterator() const {
 //    return nullptr;
-//}
+}
 
 bool Bag::isEmpty() const {
     return false;

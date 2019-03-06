@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
+
 project(lab1)
-
 set(CMAKE_CXX_STANDARD 17)
-
-add_executable(lab1 main.cpp Bag.cpp Bag.h)
+include_directories(include)
+file(GLOB SOURCES "src/*.cpp")
+add_executable(lab1 main.cpp test/DAIterator.cpp test/DAIterator.h test/DynamicArray.cpp test/DynamicArray.h)

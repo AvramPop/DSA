@@ -1,10 +1,11 @@
 //
 // Created by dani on 3/5/19.
 //
-#pragma once
 #ifndef LAB1_BAG_H
 #define LAB1_BAG_H
 
+
+#include "BagIterator.h"
 
 typedef int TElem;
 
@@ -32,7 +33,7 @@ class Bag {
         int size() const;
 
         //returns an iterator for this bag
-        //BagIterator iterator() const;
+        BagIterator iterator() const;
 
         //checks if the bag is empty
         bool isEmpty() const;

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dani/Desktop/code/faculta/DSA/lab1/Bag.cpp
+Bag.h
+/home/dani/Desktop/code/faculta/DSA/lab1/Bag.h
+
+/home/dani/Desktop/code/faculta/DSA/lab1/Bag.h
+BagIterator.h
+/home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.h
+
+/home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.cpp
+BagIterator.h
+/home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.h
+
+/home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.h
+
+/home/dani/Desktop/code/faculta/DSA/lab1/DAIterator.cpp
+DAIterator.h
+/home/dani/Desktop/code/faculta/DSA/lab1/DAIterator.h
+
+/home/dani/Desktop/code/faculta/DSA/lab1/DAIterator.h
+
+/home/dani/Desktop/code/faculta/DSA/lab1/DynamicArray.cpp
+DynamicArray.h
+/home/dani/Desktop/code/faculta/DSA/lab1/DynamicArray.h
+algorithm
+-
+
+/home/dani/Desktop/code/faculta/DSA/lab1/DynamicArray.h
+DAIterator.h
+/home/dani/Desktop/code/faculta/DSA/lab1/DAIterator.h
+
+/home/dani/Desktop/code/faculta/DSA/lab1/main.cpp
+iostream
+-
+DynamicArray.h
+/home/dani/Desktop/code/faculta/DSA/lab1/DynamicArray.h
+

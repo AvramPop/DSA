@@ -1,4 +1,4 @@
-/home/dani/Desktop/sources/clion-2018.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/dani/Desktop/code/faculta/dsa/lab1
+/home/dani/Desktop/sources/clion-2018.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/dani/Desktop/code/faculta/DSA/lab1
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/dani/Desktop/code/faculta/dsa/lab1/cmake-build-debug
+-- Build files have been written to: /home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug
