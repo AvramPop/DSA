@@ -123,6 +123,60 @@ lab1/fast:
 	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/build
 .PHONY : lab1/fast
 
+Bag.o: Bag.cpp.o
+
+.PHONY : Bag.o
+
+# target to build an object file
+Bag.cpp.o:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/Bag.cpp.o
+.PHONY : Bag.cpp.o
+
+Bag.i: Bag.cpp.i
+
+.PHONY : Bag.i
+
+# target to preprocess a source file
+Bag.cpp.i:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/Bag.cpp.i
+.PHONY : Bag.cpp.i
+
+Bag.s: Bag.cpp.s
+
+.PHONY : Bag.s
+
+# target to generate assembly for a file
+Bag.cpp.s:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/Bag.cpp.s
+.PHONY : Bag.cpp.s
+
+BagIterator.o: BagIterator.cpp.o
+
+.PHONY : BagIterator.o
+
+# target to build an object file
+BagIterator.cpp.o:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/BagIterator.cpp.o
+.PHONY : BagIterator.cpp.o
+
+BagIterator.i: BagIterator.cpp.i
+
+.PHONY : BagIterator.i
+
+# target to preprocess a source file
+BagIterator.cpp.i:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/BagIterator.cpp.i
+.PHONY : BagIterator.cpp.i
+
+BagIterator.s: BagIterator.cpp.s
+
+.PHONY : BagIterator.s
+
+# target to generate assembly for a file
+BagIterator.cpp.s:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/BagIterator.cpp.s
+.PHONY : BagIterator.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -213,6 +267,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... lab1"
 	@echo "... edit_cache"
+	@echo "... Bag.o"
+	@echo "... Bag.i"
+	@echo "... Bag.s"
+	@echo "... BagIterator.o"
+	@echo "... BagIterator.i"
+	@echo "... BagIterator.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -6,29 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/dani/Desktop/code/faculta/DSA/lab1/main.cpp
-iostream
--
-test/DynamicArray.h
-/home/dani/Desktop/code/faculta/DSA/lab1/test/DynamicArray.h
-test/DAIterator.h
-/home/dani/Desktop/code/faculta/DSA/lab1/test/DAIterator.h
+/home/dani/Desktop/code/faculta/DSA/lab1/Bag.cpp
+Bag.h
+/home/dani/Desktop/code/faculta/DSA/lab1/Bag.h
+BagIterator.h
+/home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.h
 
-/home/dani/Desktop/code/faculta/DSA/lab1/test/DAIterator.cpp
-DAIterator.h
-/home/dani/Desktop/code/faculta/DSA/lab1/test/DAIterator.h
+/home/dani/Desktop/code/faculta/DSA/lab1/Bag.h
 
-/home/dani/Desktop/code/faculta/DSA/lab1/test/DAIterator.h
-DynamicArray.h
-/home/dani/Desktop/code/faculta/DSA/lab1/test/DynamicArray.h
-
-/home/dani/Desktop/code/faculta/DSA/lab1/test/DynamicArray.cpp
-DynamicArray.h
-/home/dani/Desktop/code/faculta/DSA/lab1/test/DynamicArray.h
-DAIterator.h
-/home/dani/Desktop/code/faculta/DSA/lab1/test/DAIterator.h
-algorithm
--
-
-/home/dani/Desktop/code/faculta/DSA/lab1/test/DynamicArray.h
+/home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.h
+Bag.h
+/home/dani/Desktop/code/faculta/DSA/lab1/Bag.h
 

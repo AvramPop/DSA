@@ -1,37 +1,94 @@
 //
-// Created by dani on 3/5/19.
+// Created by dani on 3/6/19.
 //
 
 #include "Bag.h"
+#include "BagIterator.h"
 
-Bag::Bag() = default;
+Bag::Bag() {
+    buffer = new TElem[1];
+    buffer[0] = 0;
+    bufferSize = 1;
+    leastElement = 0;
+}
 
 void Bag::add(TElem e) {
-
+    if(e >= 0) {
+        if(e < bufferSize - leastElement) {
+            buffer[bufferIndex(e)]++;
+        } else {
+            stretchBufferRight(bufferIndex(e - bufferSize + 1));
+            bufferSize = bufferIndex(e) + 1;
+            buffer[bufferIndex(e)]++;
+        }
+    } else {
+        if(e * -1 <= leastElement) {
+            buffer[bufferIndex(e)]++;
+        } else {
+            stretchBufferLeft(-1 * (e + leastElement));
+            buffer[0] = 1;
+            leastElement = e * -1;
+        }
+    }
 }
 
 bool Bag::remove(TElem e) {
-    return false;
+    if(search(e)) {
+        buffer[bufferIndex(e)] = 0;
+        return true;
+    } else {
+        return false;
+    }
 }
 
 bool Bag::search(TElem e) const {
-    return false;
+    return buffer[bufferIndex(e)] > 0;
 }
 
 int Bag::nrOccurrences(TElem e) const {
-    return 0;
+    return buffer[bufferIndex(e)];
 }
 
 int Bag::size() const {
-    return 0;
+    return bufferSize;
 }
 
 BagIterator Bag::iterator() const {
-//    return nullptr;
+    return BagIterator(*this);
 }
 
 bool Bag::isEmpty() const {
-    return false;
+    return bufferSize == 0;
 }
 
-Bag::~Bag() = default;
+Bag::~Bag() {
+    delete []buffer;
+}
+
+void Bag::stretchBufferRight(int difference) {
+    TElem *newBuffer = new TElem[bufferSize + difference];
+    for(int i = 0; i < bufferSize; i++) {
+        newBuffer[i] = buffer[i];
+    }
+    for(int i = bufferSize; i < bufferSize + difference; i++) {
+        newBuffer[i] = 0;
+    }
+    delete [] buffer;
+    buffer = newBuffer;
+}
+
+void Bag::stretchBufferLeft(int difference) {
+    TElem *newBuffer = new TElem[bufferSize + difference];
+    for(int i = 0; i < bufferSize; i++) {
+        newBuffer[i + difference] = buffer[i];
+    }
+    for(int i = 0; i < difference; i++) {
+        newBuffer[i] = 0;
+    }
+    delete [] buffer;
+    buffer = newBuffer;
+}
+
+int Bag::bufferIndex(int index) const {
+    return index + leastElement;
+}

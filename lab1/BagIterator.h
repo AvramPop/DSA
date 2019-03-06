@@ -5,9 +5,22 @@
 #ifndef LAB1_BAGITERATOR_H
 #define LAB1_BAGITERATOR_H
 
+#include "Bag.h"
+
+class Bag;
 
 class BagIterator {
-
+    friend class Bag;
+    private:
+        const Bag& bag;
+        BagIterator(const Bag& b);
+        TElem *currentElement;
+        int currentIterationIndex;
+    public:
+        TElem getCurrent();
+        bool valid();
+        void next();
+        void first();
 };
 
 
