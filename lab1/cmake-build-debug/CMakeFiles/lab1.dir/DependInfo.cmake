@@ -6,9 +6,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dani/Desktop/code/faculta/DSA/lab1/Bag.cpp" "/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles/lab1.dir/Bag.cpp.o"
   "/home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.cpp" "/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles/lab1.dir/BagIterator.cpp.o"
+  "/home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.cpp" "/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles/lab1.dir/ExtendedTest.cpp.o"
+  "/home/dani/Desktop/code/faculta/DSA/lab1/ShortTest.cpp" "/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles/lab1.dir/ShortTest.cpp.o"
   "/home/dani/Desktop/code/faculta/DSA/lab1/main.cpp" "/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles/lab1.dir/main.cpp.o"
-  "/home/dani/Desktop/code/faculta/DSA/lab1/test/DAIterator.cpp" "/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles/lab1.dir/test/DAIterator.cpp.o"
-  "/home/dani/Desktop/code/faculta/DSA/lab1/test/DynamicArray.cpp" "/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles/lab1.dir/test/DynamicArray.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

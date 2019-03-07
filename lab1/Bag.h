@@ -34,5 +34,4 @@ class Bag {
         ~Bag();
 };
 
-
 #endif //LAB1_BAG_H

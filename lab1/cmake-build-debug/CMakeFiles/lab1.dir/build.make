@@ -70,35 +70,9 @@ CMakeFiles/lab1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dani/Desktop/code/faculta/DSA/lab1/main.cpp -o CMakeFiles/lab1.dir/main.cpp.s
 
-CMakeFiles/lab1.dir/test/DAIterator.cpp.o: CMakeFiles/lab1.dir/flags.make
-CMakeFiles/lab1.dir/test/DAIterator.cpp.o: ../test/DAIterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab1.dir/test/DAIterator.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/test/DAIterator.cpp.o -c /home/dani/Desktop/code/faculta/DSA/lab1/test/DAIterator.cpp
-
-CMakeFiles/lab1.dir/test/DAIterator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/test/DAIterator.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dani/Desktop/code/faculta/DSA/lab1/test/DAIterator.cpp > CMakeFiles/lab1.dir/test/DAIterator.cpp.i
-
-CMakeFiles/lab1.dir/test/DAIterator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/test/DAIterator.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dani/Desktop/code/faculta/DSA/lab1/test/DAIterator.cpp -o CMakeFiles/lab1.dir/test/DAIterator.cpp.s
-
-CMakeFiles/lab1.dir/test/DynamicArray.cpp.o: CMakeFiles/lab1.dir/flags.make
-CMakeFiles/lab1.dir/test/DynamicArray.cpp.o: ../test/DynamicArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab1.dir/test/DynamicArray.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/test/DynamicArray.cpp.o -c /home/dani/Desktop/code/faculta/DSA/lab1/test/DynamicArray.cpp
-
-CMakeFiles/lab1.dir/test/DynamicArray.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/test/DynamicArray.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dani/Desktop/code/faculta/DSA/lab1/test/DynamicArray.cpp > CMakeFiles/lab1.dir/test/DynamicArray.cpp.i
-
-CMakeFiles/lab1.dir/test/DynamicArray.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/test/DynamicArray.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dani/Desktop/code/faculta/DSA/lab1/test/DynamicArray.cpp -o CMakeFiles/lab1.dir/test/DynamicArray.cpp.s
-
 CMakeFiles/lab1.dir/Bag.cpp.o: CMakeFiles/lab1.dir/flags.make
 CMakeFiles/lab1.dir/Bag.cpp.o: ../Bag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab1.dir/Bag.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab1.dir/Bag.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/Bag.cpp.o -c /home/dani/Desktop/code/faculta/DSA/lab1/Bag.cpp
 
 CMakeFiles/lab1.dir/Bag.cpp.i: cmake_force
@@ -111,7 +85,7 @@ CMakeFiles/lab1.dir/Bag.cpp.s: cmake_force
 
 CMakeFiles/lab1.dir/BagIterator.cpp.o: CMakeFiles/lab1.dir/flags.make
 CMakeFiles/lab1.dir/BagIterator.cpp.o: ../BagIterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab1.dir/BagIterator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab1.dir/BagIterator.cpp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/BagIterator.cpp.o -c /home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.cpp
 
 CMakeFiles/lab1.dir/BagIterator.cpp.i: cmake_force
@@ -122,22 +96,48 @@ CMakeFiles/lab1.dir/BagIterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/BagIterator.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.cpp -o CMakeFiles/lab1.dir/BagIterator.cpp.s
 
+CMakeFiles/lab1.dir/ShortTest.cpp.o: CMakeFiles/lab1.dir/flags.make
+CMakeFiles/lab1.dir/ShortTest.cpp.o: ../ShortTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab1.dir/ShortTest.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/ShortTest.cpp.o -c /home/dani/Desktop/code/faculta/DSA/lab1/ShortTest.cpp
+
+CMakeFiles/lab1.dir/ShortTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/ShortTest.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dani/Desktop/code/faculta/DSA/lab1/ShortTest.cpp > CMakeFiles/lab1.dir/ShortTest.cpp.i
+
+CMakeFiles/lab1.dir/ShortTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/ShortTest.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dani/Desktop/code/faculta/DSA/lab1/ShortTest.cpp -o CMakeFiles/lab1.dir/ShortTest.cpp.s
+
+CMakeFiles/lab1.dir/ExtendedTest.cpp.o: CMakeFiles/lab1.dir/flags.make
+CMakeFiles/lab1.dir/ExtendedTest.cpp.o: ../ExtendedTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab1.dir/ExtendedTest.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/ExtendedTest.cpp.o -c /home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.cpp
+
+CMakeFiles/lab1.dir/ExtendedTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/ExtendedTest.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.cpp > CMakeFiles/lab1.dir/ExtendedTest.cpp.i
+
+CMakeFiles/lab1.dir/ExtendedTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/ExtendedTest.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.cpp -o CMakeFiles/lab1.dir/ExtendedTest.cpp.s
+
 # Object files for target lab1
 lab1_OBJECTS = \
 "CMakeFiles/lab1.dir/main.cpp.o" \
-"CMakeFiles/lab1.dir/test/DAIterator.cpp.o" \
-"CMakeFiles/lab1.dir/test/DynamicArray.cpp.o" \
 "CMakeFiles/lab1.dir/Bag.cpp.o" \
-"CMakeFiles/lab1.dir/BagIterator.cpp.o"
+"CMakeFiles/lab1.dir/BagIterator.cpp.o" \
+"CMakeFiles/lab1.dir/ShortTest.cpp.o" \
+"CMakeFiles/lab1.dir/ExtendedTest.cpp.o"
 
 # External object files for target lab1
 lab1_EXTERNAL_OBJECTS =
 
 lab1: CMakeFiles/lab1.dir/main.cpp.o
-lab1: CMakeFiles/lab1.dir/test/DAIterator.cpp.o
-lab1: CMakeFiles/lab1.dir/test/DynamicArray.cpp.o
 lab1: CMakeFiles/lab1.dir/Bag.cpp.o
 lab1: CMakeFiles/lab1.dir/BagIterator.cpp.o
+lab1: CMakeFiles/lab1.dir/ShortTest.cpp.o
+lab1: CMakeFiles/lab1.dir/ExtendedTest.cpp.o
 lab1: CMakeFiles/lab1.dir/build.make
 lab1: CMakeFiles/lab1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable lab1"

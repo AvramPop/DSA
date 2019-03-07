@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab1.dir/main.cpp.o"
-  "CMakeFiles/lab1.dir/test/DAIterator.cpp.o"
-  "CMakeFiles/lab1.dir/test/DynamicArray.cpp.o"
   "CMakeFiles/lab1.dir/Bag.cpp.o"
   "CMakeFiles/lab1.dir/BagIterator.cpp.o"
+  "CMakeFiles/lab1.dir/ShortTest.cpp.o"
+  "CMakeFiles/lab1.dir/ExtendedTest.cpp.o"
   "lab1.pdb"
   "lab1"
 )

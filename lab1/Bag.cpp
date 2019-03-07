@@ -44,15 +44,21 @@ bool Bag::remove(TElem e) {
 }
 
 bool Bag::search(TElem e) const {
+    if(e >= bufferSize - leastElement || e < leastElement * -1) return false;
     return buffer[bufferIndex(e)] > 0;
 }
 
 int Bag::nrOccurrences(TElem e) const {
+    if(e >= bufferSize - leastElement || e < leastElement * -1) return 0;
     return buffer[bufferIndex(e)];
 }
 
 int Bag::size() const {
-    return bufferSize;
+    int numberOfElements = 0;
+    for(int i = 0; i < bufferSize; i++) {
+        numberOfElements += buffer[i];
+    }
+    return numberOfElements;
 }
 
 BagIterator Bag::iterator() const {

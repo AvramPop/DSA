@@ -98,19 +98,19 @@
 		<Unit filename="/home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.h">
 			<Option target="lab1"/>
 		</Unit>
+		<Unit filename="/home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.cpp">
+			<Option target="lab1"/>
+		</Unit>
+		<Unit filename="/home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.h">
+			<Option target="lab1"/>
+		</Unit>
+		<Unit filename="/home/dani/Desktop/code/faculta/DSA/lab1/ShortTest.cpp">
+			<Option target="lab1"/>
+		</Unit>
+		<Unit filename="/home/dani/Desktop/code/faculta/DSA/lab1/ShortTest.h">
+			<Option target="lab1"/>
+		</Unit>
 		<Unit filename="/home/dani/Desktop/code/faculta/DSA/lab1/main.cpp">
-			<Option target="lab1"/>
-		</Unit>
-		<Unit filename="/home/dani/Desktop/code/faculta/DSA/lab1/test/DAIterator.cpp">
-			<Option target="lab1"/>
-		</Unit>
-		<Unit filename="/home/dani/Desktop/code/faculta/DSA/lab1/test/DAIterator.h">
-			<Option target="lab1"/>
-		</Unit>
-		<Unit filename="/home/dani/Desktop/code/faculta/DSA/lab1/test/DynamicArray.cpp">
-			<Option target="lab1"/>
-		</Unit>
-		<Unit filename="/home/dani/Desktop/code/faculta/DSA/lab1/test/DynamicArray.h">
 			<Option target="lab1"/>
 		</Unit>
 		<Unit filename="/home/dani/Desktop/code/faculta/DSA/lab1/CMakeLists.txt">

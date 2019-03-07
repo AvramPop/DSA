@@ -14,8 +14,9 @@ class BagIterator {
     private:
         const Bag& bag;
         BagIterator(const Bag& b);
-        TElem *currentElement;
         int currentIterationIndex;
+        int realIndex(int bufferIndex) const;
+        int currentFrequency;
     public:
         TElem getCurrent();
         bool valid();

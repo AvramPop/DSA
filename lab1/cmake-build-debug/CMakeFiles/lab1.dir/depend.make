@@ -9,17 +9,19 @@ CMakeFiles/lab1.dir/BagIterator.cpp.o: ../Bag.h
 CMakeFiles/lab1.dir/BagIterator.cpp.o: ../BagIterator.cpp
 CMakeFiles/lab1.dir/BagIterator.cpp.o: ../BagIterator.h
 
+CMakeFiles/lab1.dir/ExtendedTest.cpp.o: ../Bag.h
+CMakeFiles/lab1.dir/ExtendedTest.cpp.o: ../BagIterator.h
+CMakeFiles/lab1.dir/ExtendedTest.cpp.o: ../ExtendedTest.cpp
+CMakeFiles/lab1.dir/ExtendedTest.cpp.o: ../ExtendedTest.h
+
+CMakeFiles/lab1.dir/ShortTest.cpp.o: ../Bag.h
+CMakeFiles/lab1.dir/ShortTest.cpp.o: ../BagIterator.h
+CMakeFiles/lab1.dir/ShortTest.cpp.o: ../ShortTest.cpp
+CMakeFiles/lab1.dir/ShortTest.cpp.o: ../ShortTest.h
+
 CMakeFiles/lab1.dir/main.cpp.o: ../Bag.h
 CMakeFiles/lab1.dir/main.cpp.o: ../BagIterator.h
+CMakeFiles/lab1.dir/main.cpp.o: ../ExtendedTest.h
+CMakeFiles/lab1.dir/main.cpp.o: ../ShortTest.h
 CMakeFiles/lab1.dir/main.cpp.o: ../main.cpp
-CMakeFiles/lab1.dir/main.cpp.o: ../test/DAIterator.h
-CMakeFiles/lab1.dir/main.cpp.o: ../test/DynamicArray.h
-
-CMakeFiles/lab1.dir/test/DAIterator.cpp.o: ../test/DAIterator.cpp
-CMakeFiles/lab1.dir/test/DAIterator.cpp.o: ../test/DAIterator.h
-CMakeFiles/lab1.dir/test/DAIterator.cpp.o: ../test/DynamicArray.h
-
-CMakeFiles/lab1.dir/test/DynamicArray.cpp.o: ../test/DAIterator.h
-CMakeFiles/lab1.dir/test/DynamicArray.cpp.o: ../test/DynamicArray.cpp
-CMakeFiles/lab1.dir/test/DynamicArray.cpp.o: ../test/DynamicArray.h
 

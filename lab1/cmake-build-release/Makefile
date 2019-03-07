@@ -177,6 +177,60 @@ BagIterator.cpp.s:
 	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/BagIterator.cpp.s
 .PHONY : BagIterator.cpp.s
 
+ExtendedTest.o: ExtendedTest.cpp.o
+
+.PHONY : ExtendedTest.o
+
+# target to build an object file
+ExtendedTest.cpp.o:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/ExtendedTest.cpp.o
+.PHONY : ExtendedTest.cpp.o
+
+ExtendedTest.i: ExtendedTest.cpp.i
+
+.PHONY : ExtendedTest.i
+
+# target to preprocess a source file
+ExtendedTest.cpp.i:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/ExtendedTest.cpp.i
+.PHONY : ExtendedTest.cpp.i
+
+ExtendedTest.s: ExtendedTest.cpp.s
+
+.PHONY : ExtendedTest.s
+
+# target to generate assembly for a file
+ExtendedTest.cpp.s:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/ExtendedTest.cpp.s
+.PHONY : ExtendedTest.cpp.s
+
+ShortTest.o: ShortTest.cpp.o
+
+.PHONY : ShortTest.o
+
+# target to build an object file
+ShortTest.cpp.o:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/ShortTest.cpp.o
+.PHONY : ShortTest.cpp.o
+
+ShortTest.i: ShortTest.cpp.i
+
+.PHONY : ShortTest.i
+
+# target to preprocess a source file
+ShortTest.cpp.i:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/ShortTest.cpp.i
+.PHONY : ShortTest.cpp.i
+
+ShortTest.s: ShortTest.cpp.s
+
+.PHONY : ShortTest.s
+
+# target to generate assembly for a file
+ShortTest.cpp.s:
+	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/ShortTest.cpp.s
+.PHONY : ShortTest.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -204,60 +258,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-test/DAIterator.o: test/DAIterator.cpp.o
-
-.PHONY : test/DAIterator.o
-
-# target to build an object file
-test/DAIterator.cpp.o:
-	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/test/DAIterator.cpp.o
-.PHONY : test/DAIterator.cpp.o
-
-test/DAIterator.i: test/DAIterator.cpp.i
-
-.PHONY : test/DAIterator.i
-
-# target to preprocess a source file
-test/DAIterator.cpp.i:
-	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/test/DAIterator.cpp.i
-.PHONY : test/DAIterator.cpp.i
-
-test/DAIterator.s: test/DAIterator.cpp.s
-
-.PHONY : test/DAIterator.s
-
-# target to generate assembly for a file
-test/DAIterator.cpp.s:
-	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/test/DAIterator.cpp.s
-.PHONY : test/DAIterator.cpp.s
-
-test/DynamicArray.o: test/DynamicArray.cpp.o
-
-.PHONY : test/DynamicArray.o
-
-# target to build an object file
-test/DynamicArray.cpp.o:
-	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/test/DynamicArray.cpp.o
-.PHONY : test/DynamicArray.cpp.o
-
-test/DynamicArray.i: test/DynamicArray.cpp.i
-
-.PHONY : test/DynamicArray.i
-
-# target to preprocess a source file
-test/DynamicArray.cpp.i:
-	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/test/DynamicArray.cpp.i
-.PHONY : test/DynamicArray.cpp.i
-
-test/DynamicArray.s: test/DynamicArray.cpp.s
-
-.PHONY : test/DynamicArray.s
-
-# target to generate assembly for a file
-test/DynamicArray.cpp.s:
-	$(MAKE) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/test/DynamicArray.cpp.s
-.PHONY : test/DynamicArray.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -273,15 +273,15 @@ help:
 	@echo "... BagIterator.o"
 	@echo "... BagIterator.i"
 	@echo "... BagIterator.s"
+	@echo "... ExtendedTest.o"
+	@echo "... ExtendedTest.i"
+	@echo "... ExtendedTest.s"
+	@echo "... ShortTest.o"
+	@echo "... ShortTest.i"
+	@echo "... ShortTest.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... test/DAIterator.o"
-	@echo "... test/DAIterator.i"
-	@echo "... test/DAIterator.s"
-	@echo "... test/DynamicArray.o"
-	@echo "... test/DynamicArray.i"
-	@echo "... test/DynamicArray.s"
 .PHONY : help
 
 
