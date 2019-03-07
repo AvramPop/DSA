@@ -10,6 +10,7 @@ CMakeFiles/lab1.dir/BagIterator.cpp.o: ../BagIterator.cpp
 CMakeFiles/lab1.dir/BagIterator.cpp.o: ../BagIterator.h
 
 CMakeFiles/lab1.dir/main.cpp.o: ../Bag.h
+CMakeFiles/lab1.dir/main.cpp.o: ../BagIterator.h
 CMakeFiles/lab1.dir/main.cpp.o: ../main.cpp
 CMakeFiles/lab1.dir/main.cpp.o: ../test/DAIterator.h
 CMakeFiles/lab1.dir/main.cpp.o: ../test/DynamicArray.h

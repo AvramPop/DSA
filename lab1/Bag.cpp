@@ -25,7 +25,9 @@ void Bag::add(TElem e) {
         if(e * -1 <= leastElement) {
             buffer[bufferIndex(e)]++;
         } else {
-            stretchBufferLeft(-1 * (e + leastElement));
+            int difference = -1 * (e + leastElement);
+            stretchBufferLeft(difference);
+            bufferSize = bufferSize + difference;
             buffer[0] = 1;
             leastElement = e * -1;
         }
@@ -34,7 +36,7 @@ void Bag::add(TElem e) {
 
 bool Bag::remove(TElem e) {
     if(search(e)) {
-        buffer[bufferIndex(e)] = 0;
+        buffer[bufferIndex(e)]--;
         return true;
     } else {
         return false;
@@ -58,7 +60,7 @@ BagIterator Bag::iterator() const {
 }
 
 bool Bag::isEmpty() const {
-    return bufferSize == 0;
+    return bufferSize == 1;
 }
 
 Bag::~Bag() {
