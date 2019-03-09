@@ -9,19 +9,29 @@
 
 class Bag;
 
-class BagIterator {
+class BagIterator{
     friend class Bag;
-    private:
-        const Bag& bag;
-        BagIterator(const Bag& b);
-        int currentIterationIndex;
-        int realIndex(int bufferIndex) const;
-        int currentFrequency;
-    public:
-        TElem getCurrent();
-        bool valid();
-        void next();
-        void first();
+
+private:
+    const Bag &bag;
+
+    BagIterator(const Bag &b);
+
+    //TElem *bagAsArray;
+
+    int currentIterationIndex;
+
+    int realIndex(int bufferIndex) const;
+
+    int currentFrequency;
+public:
+    TElem getCurrent();
+
+    bool valid();
+
+    void next();
+
+    void first();
 };
 
 

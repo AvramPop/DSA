@@ -8,13 +8,39 @@
 
 /home/dani/Desktop/code/faculta/DSA/lab1/Bag.h
 
-/home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.cpp
-exception
--
-BagIterator.h
-/home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.h
-
 /home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.h
 Bag.h
 /home/dani/Desktop/code/faculta/DSA/lab1/Bag.h
+
+/home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.cpp
+assert.h
+-
+Bag.h
+/home/dani/Desktop/code/faculta/DSA/lab1/Bag.h
+ExtendedTest.h
+/home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.h
+BagIterator.h
+/home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.h
+iostream
+-
+vector
+-
+exception
+-
+
+/home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.h
+
+/home/dani/Desktop/code/faculta/DSA/lab1/ShortTest.h
+
+/home/dani/Desktop/code/faculta/DSA/lab1/main.cpp
+iostream
+-
+Bag.h
+/home/dani/Desktop/code/faculta/DSA/lab1/Bag.h
+BagIterator.h
+/home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.h
+ShortTest.h
+/home/dani/Desktop/code/faculta/DSA/lab1/ShortTest.h
+ExtendedTest.h
+/home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.h
 

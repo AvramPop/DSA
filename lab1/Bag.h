@@ -9,29 +9,40 @@ typedef int TElem;
 
 class BagIterator;
 
-class Bag {
+class Bag{
 
     friend class BagIterator;
 
-    private:
-        TElem *buffer;
-        int bufferSize;
-        TElem leastElement;
-        void stretchBufferRight(int newCapacity);
-        void stretchBufferLeft(int newCapacity);
-        int bufferIndex(int index) const;
+private:
+    TElem *buffer;
+    int bufferSize;
+    TElem leastElement;
 
-    public:
+    void stretchBufferRight(int newCapacity);
 
-        Bag();
-        void add(TElem e);
-        bool remove(TElem e);
-        bool search(TElem e) const;
-        int nrOccurrences(TElem e) const;
-        int size() const;
-        BagIterator iterator() const;
-        bool isEmpty() const;
-        ~Bag();
+    void stretchBufferLeft(int newCapacity);
+
+    int bufferIndex(int index) const;
+
+public:
+
+    Bag();
+
+    void add(TElem e);
+
+    bool remove(TElem e);
+
+    bool search(TElem e) const;
+
+    int nrOccurrences(TElem e) const;
+
+    int size() const;
+
+    BagIterator iterator() const;
+
+    bool isEmpty() const;
+
+    ~Bag();
 };
 
 #endif //LAB1_BAG_H
