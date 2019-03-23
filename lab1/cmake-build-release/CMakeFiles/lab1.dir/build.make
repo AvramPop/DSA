@@ -43,10 +43,10 @@ RM = /home/dani/Desktop/sources/clion-2018.3/bin/cmake/linux/bin/cmake -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dani/Desktop/code/faculta/DSA/lab1
+CMAKE_SOURCE_DIR = /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-release
+CMAKE_BINARY_DIR = /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/cmake-build-release
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab1.dir/depend.make
@@ -59,68 +59,68 @@ include CMakeFiles/lab1.dir/flags.make
 
 CMakeFiles/lab1.dir/main.cpp.o: CMakeFiles/lab1.dir/flags.make
 CMakeFiles/lab1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab1.dir/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/main.cpp.o -c /home/dani/Desktop/code/faculta/DSA/lab1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab1.dir/main.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/main.cpp.o -c /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/main.cpp
 
 CMakeFiles/lab1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dani/Desktop/code/faculta/DSA/lab1/main.cpp > CMakeFiles/lab1.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/main.cpp > CMakeFiles/lab1.dir/main.cpp.i
 
 CMakeFiles/lab1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dani/Desktop/code/faculta/DSA/lab1/main.cpp -o CMakeFiles/lab1.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/main.cpp -o CMakeFiles/lab1.dir/main.cpp.s
 
 CMakeFiles/lab1.dir/Bag.cpp.o: CMakeFiles/lab1.dir/flags.make
 CMakeFiles/lab1.dir/Bag.cpp.o: ../Bag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab1.dir/Bag.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/Bag.cpp.o -c /home/dani/Desktop/code/faculta/DSA/lab1/Bag.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lab1.dir/Bag.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/Bag.cpp.o -c /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/Bag.cpp
 
 CMakeFiles/lab1.dir/Bag.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/Bag.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dani/Desktop/code/faculta/DSA/lab1/Bag.cpp > CMakeFiles/lab1.dir/Bag.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/Bag.cpp > CMakeFiles/lab1.dir/Bag.cpp.i
 
 CMakeFiles/lab1.dir/Bag.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/Bag.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dani/Desktop/code/faculta/DSA/lab1/Bag.cpp -o CMakeFiles/lab1.dir/Bag.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/Bag.cpp -o CMakeFiles/lab1.dir/Bag.cpp.s
 
 CMakeFiles/lab1.dir/BagIterator.cpp.o: CMakeFiles/lab1.dir/flags.make
 CMakeFiles/lab1.dir/BagIterator.cpp.o: ../BagIterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab1.dir/BagIterator.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/BagIterator.cpp.o -c /home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lab1.dir/BagIterator.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/BagIterator.cpp.o -c /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/BagIterator.cpp
 
 CMakeFiles/lab1.dir/BagIterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/BagIterator.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.cpp > CMakeFiles/lab1.dir/BagIterator.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/BagIterator.cpp > CMakeFiles/lab1.dir/BagIterator.cpp.i
 
 CMakeFiles/lab1.dir/BagIterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/BagIterator.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.cpp -o CMakeFiles/lab1.dir/BagIterator.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/BagIterator.cpp -o CMakeFiles/lab1.dir/BagIterator.cpp.s
 
 CMakeFiles/lab1.dir/ShortTest.cpp.o: CMakeFiles/lab1.dir/flags.make
 CMakeFiles/lab1.dir/ShortTest.cpp.o: ../ShortTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab1.dir/ShortTest.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/ShortTest.cpp.o -c /home/dani/Desktop/code/faculta/DSA/lab1/ShortTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lab1.dir/ShortTest.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/ShortTest.cpp.o -c /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/ShortTest.cpp
 
 CMakeFiles/lab1.dir/ShortTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/ShortTest.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dani/Desktop/code/faculta/DSA/lab1/ShortTest.cpp > CMakeFiles/lab1.dir/ShortTest.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/ShortTest.cpp > CMakeFiles/lab1.dir/ShortTest.cpp.i
 
 CMakeFiles/lab1.dir/ShortTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/ShortTest.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dani/Desktop/code/faculta/DSA/lab1/ShortTest.cpp -o CMakeFiles/lab1.dir/ShortTest.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/ShortTest.cpp -o CMakeFiles/lab1.dir/ShortTest.cpp.s
 
 CMakeFiles/lab1.dir/ExtendedTest.cpp.o: CMakeFiles/lab1.dir/flags.make
 CMakeFiles/lab1.dir/ExtendedTest.cpp.o: ../ExtendedTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab1.dir/ExtendedTest.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/ExtendedTest.cpp.o -c /home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lab1.dir/ExtendedTest.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab1.dir/ExtendedTest.cpp.o -c /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/ExtendedTest.cpp
 
 CMakeFiles/lab1.dir/ExtendedTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab1.dir/ExtendedTest.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.cpp > CMakeFiles/lab1.dir/ExtendedTest.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/ExtendedTest.cpp > CMakeFiles/lab1.dir/ExtendedTest.cpp.i
 
 CMakeFiles/lab1.dir/ExtendedTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab1.dir/ExtendedTest.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.cpp -o CMakeFiles/lab1.dir/ExtendedTest.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/ExtendedTest.cpp -o CMakeFiles/lab1.dir/ExtendedTest.cpp.s
 
 # Object files for target lab1
 lab1_OBJECTS = \
@@ -140,7 +140,7 @@ lab1: CMakeFiles/lab1.dir/ShortTest.cpp.o
 lab1: CMakeFiles/lab1.dir/ExtendedTest.cpp.o
 lab1: CMakeFiles/lab1.dir/build.make
 lab1: CMakeFiles/lab1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable lab1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable lab1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/lab1.dir/clean:
 .PHONY : CMakeFiles/lab1.dir/clean
 
 CMakeFiles/lab1.dir/depend:
-	cd /home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dani/Desktop/code/faculta/DSA/lab1 /home/dani/Desktop/code/faculta/DSA/lab1 /home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-release /home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-release /home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-release/CMakeFiles/lab1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/cmake-build-release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/cmake-build-release /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/cmake-build-release /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/cmake-build-release/CMakeFiles/lab1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lab1.dir/depend
 

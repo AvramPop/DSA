@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG   -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dani/Desktop/code/faculta/DSA/lab1/include 
+CXX_INCLUDES = -I/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/include 
 

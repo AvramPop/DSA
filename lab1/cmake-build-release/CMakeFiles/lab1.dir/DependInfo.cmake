@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dani/Desktop/code/faculta/DSA/lab1/Bag.cpp" "/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-release/CMakeFiles/lab1.dir/Bag.cpp.o"
-  "/home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.cpp" "/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-release/CMakeFiles/lab1.dir/BagIterator.cpp.o"
-  "/home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.cpp" "/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-release/CMakeFiles/lab1.dir/ExtendedTest.cpp.o"
-  "/home/dani/Desktop/code/faculta/DSA/lab1/ShortTest.cpp" "/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-release/CMakeFiles/lab1.dir/ShortTest.cpp.o"
-  "/home/dani/Desktop/code/faculta/DSA/lab1/main.cpp" "/home/dani/Desktop/code/faculta/DSA/lab1/cmake-build-release/CMakeFiles/lab1.dir/main.cpp.o"
+  "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/Bag.cpp" "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/cmake-build-release/CMakeFiles/lab1.dir/Bag.cpp.o"
+  "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/BagIterator.cpp" "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/cmake-build-release/CMakeFiles/lab1.dir/BagIterator.cpp.o"
+  "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/ExtendedTest.cpp" "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/cmake-build-release/CMakeFiles/lab1.dir/ExtendedTest.cpp.o"
+  "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/ShortTest.cpp" "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/cmake-build-release/CMakeFiles/lab1.dir/ShortTest.cpp.o"
+  "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/main.cpp" "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/cmake-build-release/CMakeFiles/lab1.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

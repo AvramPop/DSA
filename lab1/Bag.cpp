@@ -12,20 +12,21 @@ Bag::Bag(){
     leastElement = 0;
 }
 
+// O(e) ?
 void Bag::add(TElem e){
     if(e >= 0){
         if(e < bufferSize - leastElement){
-            buffer[bufferIndex(e)]++;
+            buffer[bufferIndex(e)]++; // nothing to stretch
         } else{
-            stretchBufferRight(bufferIndex(e - bufferSize + 1));
+            stretchBufferRight(bufferIndex(e - bufferSize + 1)); // stretch to right (element bigger than max)
             bufferSize = bufferIndex(e) + 1;
             buffer[bufferIndex(e)]++;
         }
     } else{
         if(e * -1 <= leastElement){
-            buffer[bufferIndex(e)]++;
+            buffer[bufferIndex(e)]++; // nothing to stretch
         } else{
-            int difference = -1 * (e + leastElement);
+            int difference = -1 * (e + leastElement); // stretch left (lesser than min)
             stretchBufferLeft(difference);
             bufferSize = bufferSize + difference;
             buffer[0] = 1;
@@ -34,6 +35,7 @@ void Bag::add(TElem e){
     }
 }
 
+// theta(1)
 bool Bag::remove(TElem e){
     if(search(e)){
         buffer[bufferIndex(e)]--;
@@ -43,16 +45,19 @@ bool Bag::remove(TElem e){
     }
 }
 
+// theta(1)
 bool Bag::search(TElem e) const{
     if(e >= bufferSize - leastElement || e < leastElement * -1) return false;
     return buffer[bufferIndex(e)] > 0;
 }
 
+// theta(1)
 int Bag::nrOccurrences(TElem e) const{
     if(e >= bufferSize - leastElement || e < leastElement * -1) return 0;
     return buffer[bufferIndex(e)];
 }
 
+// theta(n)
 int Bag::size() const{
     int numberOfElements = 0;
     for(int i = 0; i < bufferSize; i++){

@@ -6,21 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/dani/Desktop/code/faculta/DSA/lab1/Bag.h
-
-/home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/Bag.cpp
 Bag.h
-/home/dani/Desktop/code/faculta/DSA/lab1/Bag.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/Bag.h
+BagIterator.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/BagIterator.h
 
-/home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.cpp
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/Bag.h
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/BagIterator.cpp
+exception
+-
+BagIterator.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/BagIterator.h
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/BagIterator.h
+Bag.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/Bag.h
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/ExtendedTest.cpp
 assert.h
 -
 Bag.h
-/home/dani/Desktop/code/faculta/DSA/lab1/Bag.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/Bag.h
 ExtendedTest.h
-/home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/ExtendedTest.h
 BagIterator.h
-/home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/BagIterator.h
 iostream
 -
 vector
@@ -28,19 +40,29 @@ vector
 exception
 -
 
-/home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/ExtendedTest.h
 
-/home/dani/Desktop/code/faculta/DSA/lab1/ShortTest.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/ShortTest.cpp
+ShortTest.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/ShortTest.h
+assert.h
+-
+Bag.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/Bag.h
+BagIterator.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/BagIterator.h
 
-/home/dani/Desktop/code/faculta/DSA/lab1/main.cpp
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/ShortTest.h
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/main.cpp
 iostream
 -
 Bag.h
-/home/dani/Desktop/code/faculta/DSA/lab1/Bag.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/Bag.h
 BagIterator.h
-/home/dani/Desktop/code/faculta/DSA/lab1/BagIterator.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/BagIterator.h
 ShortTest.h
-/home/dani/Desktop/code/faculta/DSA/lab1/ShortTest.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/ShortTest.h
 ExtendedTest.h
-/home/dani/Desktop/code/faculta/DSA/lab1/ExtendedTest.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab1/ExtendedTest.h
 

@@ -7,10 +7,11 @@
 
 class my_exception: public std::exception{
     virtual const char *what() const throw(){
-        return "Hello, world!";
+        return "E";
     }
 };
 
+// O(n)
 BagIterator::BagIterator(const Bag &b) : bag(b){
     if(bag.isEmpty()){
         currentFrequency = -1;
@@ -22,6 +23,7 @@ BagIterator::BagIterator(const Bag &b) : bag(b){
     }
 }
 
+// theta(1)
 TElem BagIterator::getCurrent(){
     if(valid()){
         return realIndex(currentIterationIndex);
@@ -30,6 +32,7 @@ TElem BagIterator::getCurrent(){
     }
 }
 
+// O(n)
 bool BagIterator::valid(){
     if(bag.isEmpty()) return false;
     if(currentIterationIndex >= bag.bufferSize) return false;
@@ -44,6 +47,7 @@ bool BagIterator::valid(){
     }
 }
 
+// O(n)
 void BagIterator::next(){
     if(valid()){
         currentFrequency--;
