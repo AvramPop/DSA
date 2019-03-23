@@ -7,6 +7,7 @@
 
 
 #include <utility>
+#include <ostream>
 #include "SortedDoublyLinkedList.h"
 
 class SMIterator;
@@ -40,10 +41,12 @@ class SortedMap {
 
         // return the iterator for the map
         // the iterator will return the keys following the order given by the relation
-       // SMIterator iterator() const;
+        SMIterator iterator() const;
 
         // destructor
         ~SortedMap();
+
+    friend std::ostream &operator<<(std::ostream &os, const SortedMap &map);
 
 };
 

@@ -1,4 +1,4 @@
-//#pragma once
-//
-//
-//void testAllExtended();
+#pragma once
+
+
+void testAllExtended();

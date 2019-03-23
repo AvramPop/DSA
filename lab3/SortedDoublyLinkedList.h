@@ -10,7 +10,7 @@
 typedef int TKey;
 typedef int TValue;
 typedef std::pair<TKey, TValue> TElem;
-#define NULL_TVALUE -1
+#define NULL_TVALUE -10000000
 typedef bool(*Relation)(TKey, TKey);
 
 struct Node {
@@ -25,10 +25,11 @@ private:
     Node* tail;
     int length;
     Relation relation;
+    friend class SMIterator;
 public:
     void setRelation(Relation r);
     SortedDoublyLinkedList(Relation relation);
-    SortedDoublyLinkedList() {};
+    SortedDoublyLinkedList();
     void add(TElem newElement);
     void remove(TKey elementToRemove);
     TValue search(TKey element) const;

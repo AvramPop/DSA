@@ -4,6 +4,7 @@
 
 #include <cstdio>
 #include "SortedDoublyLinkedList.h"
+#include <iostream>
 
 SortedDoublyLinkedList::SortedDoublyLinkedList(Relation relation) : relation(relation){
     head = NULL;
@@ -13,60 +14,35 @@ SortedDoublyLinkedList::SortedDoublyLinkedList(Relation relation) : relation(rel
 
 void SortedDoublyLinkedList::add(TElem newElement){
     if(search(newElement.first) == NULL_TVALUE){
-        if(head == NULL){
-            Node *temp = new Node;
-            temp->next = NULL;
-            temp->previous = NULL;
+        if(length == 0){
+            Node* temp = new Node;
             temp->value = newElement;
+            temp->previous = NULL;
+            temp->next = NULL;
             head = temp;
             tail = temp;
         } else {
-            Node *temp = new Node;
-            temp->value = newElement;
-            temp->next = NULL;
-            temp->previous = NULL;
-            Node *actual = head;
-            while(relation(actual->value.first, temp->value.first) && actual != tail){
-                actual = actual->next;
+            Node* temp = head;
+            while(temp && relation(temp->value.first, newElement.first)){
+                temp = temp->next;
             }
-            if(head != tail){
-                if(actual == head){
-                    head->previous = temp;
-                    temp->next = head;
-                    temp->previous = NULL;
-                    head = temp;
-                } else if(actual == tail){
-                    if(!relation(actual->value.first, temp->value.first)){
-                        actual = actual->previous;
-                        temp->next = actual->next;
-                        temp->previous = actual;
-                        actual->next->previous = temp;
-                        actual->next = temp;
-                    } else {
-                        tail->next = temp;
-                        temp->next = NULL;
-                        temp->previous = tail;
-                        tail = temp;
-                    }
-                } else {
-                    actual = actual->previous;
-                    temp->next = actual->next;
-                    temp->previous = actual;
-                    actual->next->previous = temp;
-                    actual->next = temp;
-                }
+            Node* nodeToAdd = new Node;
+            nodeToAdd->value = newElement;
+            if(temp == head){
+                nodeToAdd->next = head;
+                nodeToAdd->previous = NULL;
+                temp->previous = nodeToAdd;
+                head = nodeToAdd;
+            } else if(temp == NULL){
+                nodeToAdd->previous = tail;
+                nodeToAdd->next = NULL;
+                tail->next = nodeToAdd;
+                tail = nodeToAdd;
             } else {
-                if(relation(actual->value.first, temp->value.first)){
-                    tail->next = temp;
-                    temp->next = NULL;
-                    temp->previous = tail;
-                    tail = temp;
-                } else {
-                    head->previous = temp;
-                    temp->next = head;
-                    temp->previous = NULL;
-                    head = temp;
-                }
+                temp->previous->next = nodeToAdd;
+                nodeToAdd->previous = temp->previous;
+                temp->previous = nodeToAdd;
+                nodeToAdd->next = temp;
             }
         }
         length++;
@@ -77,13 +53,20 @@ void SortedDoublyLinkedList::add(TElem newElement){
                 temp->value.second = newElement.second;
                 return;
             }
+            temp = temp->next;
         }
     }
 }
 
 void SortedDoublyLinkedList::remove(TKey elementToRemove){
-    if(length != 0 && search(elementToRemove)){
+    if(length != 0 && search(elementToRemove) != NULL_TVALUE){
         Node *temp = head;
+        if(length == 1){
+            length = 0;
+            head = NULL;
+            tail = NULL;
+            return;
+        }
         if(head->value.first == elementToRemove){
             head = head->next;
             head->previous = NULL;
@@ -105,12 +88,17 @@ void SortedDoublyLinkedList::remove(TKey elementToRemove){
 }
 
 TValue SortedDoublyLinkedList::search(TKey element)const{
-    Node* temp = head;
-    while(temp != NULL){
-        if(temp->value.first == element) return temp->value.second;
-        temp = temp->next;
-    }
-    return NULL_TVALUE;
+    if(length != 0){
+        if(length == 1){
+            return head->value.first == element ? head->value.second : NULL_TVALUE;
+        }
+        Node *temp = head;
+        while(temp != NULL){
+            if(temp->value.first == element) return temp->value.second;
+            temp = temp->next;
+        }
+        return NULL_TVALUE;
+    } else return NULL_TVALUE;
 }
 
 int SortedDoublyLinkedList::size()const{
@@ -119,4 +107,10 @@ int SortedDoublyLinkedList::size()const{
 
 void SortedDoublyLinkedList::setRelation(Relation r){
     relation = r;
+}
+
+SortedDoublyLinkedList::SortedDoublyLinkedList(){
+    head = NULL;
+    tail = NULL;
+    length = 0;
 }

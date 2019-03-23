@@ -19,6 +19,7 @@ class SMIterator {
 
         //contains a reference of the container it iterates over
         const SortedMap& c;
+        Node* currentNode;
 
         /* representation specific for the iterator*/
 

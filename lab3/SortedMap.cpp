@@ -3,6 +3,8 @@
 //
 
 #include "SortedMap.h"
+#include "SMIterator.h"
+#include <iostream>
 
 TValue SortedMap::add(TKey c, TValue v){
     TElem newElem;
@@ -40,12 +42,17 @@ bool SortedMap::isEmpty() const{
     return buffer.size() == 0;
 }
 
-//SMIterator SortedMap::iterator() const{
-//    return SMIterator();
-//}
-
 SortedMap::~SortedMap(){}
 
 SortedMap::SortedMap(Relation r){
     buffer.setRelation(r);
+}
+
+std::ostream &operator<<(std::ostream &os, const SortedMap &map){
+    os << "Sorted Map:\n";
+    return os;
+}
+
+SMIterator SortedMap::iterator() const{
+
 }
