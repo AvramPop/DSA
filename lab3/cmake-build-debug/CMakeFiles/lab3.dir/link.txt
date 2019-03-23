@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/lab3.dir/main.cpp.o CMakeFiles/lab3.dir/SortedMap.cpp.o CMakeFiles/lab3.dir/SMIterator.cpp.o CMakeFiles/lab3.dir/ExtendedTest.cpp.o CMakeFiles/lab3.dir/ShortTest.cpp.o CMakeFiles/lab3.dir/SortedDoublyLinkedList.cpp.o  -o lab3 
