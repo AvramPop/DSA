@@ -7,7 +7,7 @@
 using namespace std;
 
 int main(){
-    testAll();
+    testAll(); // todo am modificat in implementare null value pentru ca la un moment dat in test se adauga exact -1
     testAllExtended();
     return 0;
 }

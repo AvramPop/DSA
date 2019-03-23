@@ -5,7 +5,7 @@
 #include "SortedMap.h"
 #include "SMIterator.h"
 #include <iostream>
-
+// O(n)
 TValue SortedMap::add(TKey c, TValue v){
     TElem newElem;
     newElem.first = c;
@@ -20,10 +20,12 @@ TValue SortedMap::add(TKey c, TValue v){
     }
 }
 
+// O(n)
 TValue SortedMap::search(TKey c) const{
     return buffer.search(c);
 }
 
+// O(n)
 TValue SortedMap::remove(TKey c){
     if(buffer.search(c) != NULL_TVALUE){
         TValue value = buffer.search(c);
@@ -34,10 +36,12 @@ TValue SortedMap::remove(TKey c){
     }
 }
 
+// theta(1)
 int SortedMap::size() const{
     return buffer.size();
 }
 
+// theta(1)
 bool SortedMap::isEmpty() const{
     return buffer.size() == 0;
 }
@@ -48,11 +52,6 @@ SortedMap::SortedMap(Relation r){
     buffer.setRelation(r);
 }
 
-std::ostream &operator<<(std::ostream &os, const SortedMap &map){
-    os << "Sorted Map:\n";
-    return os;
-}
-
 SMIterator SortedMap::iterator() const{
-
+    return SMIterator(*this);
 }

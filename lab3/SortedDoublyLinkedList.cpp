@@ -11,10 +11,10 @@ SortedDoublyLinkedList::SortedDoublyLinkedList(Relation relation) : relation(rel
     tail = NULL;
     length = 0;
 }
-
+// O(n)
 void SortedDoublyLinkedList::add(TElem newElement){
     if(search(newElement.first) == NULL_TVALUE){
-        if(length == 0){
+        if(length == 0){ // list is empty
             Node* temp = new Node;
             temp->value = newElement;
             temp->previous = NULL;
@@ -28,17 +28,17 @@ void SortedDoublyLinkedList::add(TElem newElement){
             }
             Node* nodeToAdd = new Node;
             nodeToAdd->value = newElement;
-            if(temp == head){
+            if(temp == head){ // element is added on first position
                 nodeToAdd->next = head;
                 nodeToAdd->previous = NULL;
                 temp->previous = nodeToAdd;
                 head = nodeToAdd;
-            } else if(temp == NULL){
+            } else if(temp == NULL){ // element on last position
                 nodeToAdd->previous = tail;
                 nodeToAdd->next = NULL;
                 tail->next = nodeToAdd;
                 tail = nodeToAdd;
-            } else {
+            } else { // element somewhere in the middle
                 temp->previous->next = nodeToAdd;
                 nodeToAdd->previous = temp->previous;
                 temp->previous = nodeToAdd;
@@ -46,7 +46,7 @@ void SortedDoublyLinkedList::add(TElem newElement){
             }
         }
         length++;
-    } else {
+    } else { // element already here
         Node* temp = head;
         while(temp != NULL){
             if(temp->value.first == newElement.first) {
@@ -58,16 +58,17 @@ void SortedDoublyLinkedList::add(TElem newElement){
     }
 }
 
+// O(n)
 void SortedDoublyLinkedList::remove(TKey elementToRemove){
     if(length != 0 && search(elementToRemove) != NULL_TVALUE){
         Node *temp = head;
-        if(length == 1){
+        if(length == 1){ // only the sought element
             length = 0;
             head = NULL;
             tail = NULL;
             return;
         }
-        if(head->value.first == elementToRemove){
+        if(head->value.first == elementToRemove){ // element is first
             head = head->next;
             head->previous = NULL;
             length--;
@@ -76,10 +77,10 @@ void SortedDoublyLinkedList::remove(TKey elementToRemove){
         while(temp->value.first != elementToRemove && temp != tail){
             temp = temp->next;
         }
-        if(temp == tail && tail->value.first == elementToRemove){
+        if(temp == tail && tail->value.first == elementToRemove){ // element is last
             tail = tail->previous;
             tail->next = NULL;
-        } else {
+        } else { // else
             temp->next->previous = temp->previous;
             temp->previous->next = temp->next;
         }
@@ -87,6 +88,7 @@ void SortedDoublyLinkedList::remove(TKey elementToRemove){
     }
 }
 
+//O(n)
 TValue SortedDoublyLinkedList::search(TKey element)const{
     if(length != 0){
         if(length == 1){
@@ -101,6 +103,7 @@ TValue SortedDoublyLinkedList::search(TKey element)const{
     } else return NULL_TVALUE;
 }
 
+//theta(1)
 int SortedDoublyLinkedList::size()const{
     return length;
 }

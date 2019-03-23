@@ -6,44 +6,32 @@
 
 #IncludeRegexTransform: 
 
-/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/ExtendedTest.cpp
-exception
--
-assert.h
--
-algorithm
--
-vector
--
-SortedMap.h
-/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SortedMap.h
-SMIterator.h
-/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SMIterator.h
-ExtendedTest.h
-/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/ExtendedTest.h
-
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/ExtendedTest.h
 
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SMIterator.h
 SortedMap.h
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SortedMap.h
 
-/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/ShortTest.cpp
-assert.h
--
-SortedMap.h
-/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SortedMap.h
-SMIterator.h
-/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SMIterator.h
-ShortTest.h
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/ShortTest.h
-exception
--
 
-/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/ShortTest.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SortedDoublyLinkedList.cpp
+cstdio
+-
+SortedDoublyLinkedList.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SortedDoublyLinkedList.h
+iostream
+-
 
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SortedDoublyLinkedList.h
 utility
+-
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SortedMap.cpp
+SortedMap.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SortedMap.h
+SMIterator.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SMIterator.h
+iostream
 -
 
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SortedMap.h

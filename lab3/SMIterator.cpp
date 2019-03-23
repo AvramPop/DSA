@@ -10,6 +10,7 @@ class my_exception: public std::exception{
     }
 };
 
+// theta(1)
 SMIterator::SMIterator(const SortedMap &c) : c(c){
     if(c.isEmpty()){
         currentNode = NULL;
@@ -18,6 +19,7 @@ SMIterator::SMIterator(const SortedMap &c) : c(c){
     }
 }
 
+// theta(1)
 void SMIterator::first(){
     if(c.isEmpty()){
         currentNode = NULL;
@@ -26,6 +28,7 @@ void SMIterator::first(){
     }
 }
 
+// theta(1)
 void SMIterator::next(){
     if(valid()){
         currentNode = currentNode->next;
@@ -34,12 +37,14 @@ void SMIterator::next(){
     }
 }
 
+// theta(1)
 bool SMIterator::valid() const{
     if(c.isEmpty()) return false;
     if(c.size() == 1 && currentNode == c.buffer.tail) return true;
     return currentNode != NULL;
 }
 
+// theta(1)
 TElem SMIterator::getCurrent() const{
     if(valid()){
         return currentNode->value;
