@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/Bag.h
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/LinkedListOnArray.h
+Bag.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/Bag.h
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/main.cpp
+iostream
+-
+LinkedListOnArray.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/LinkedListOnArray.h
+
