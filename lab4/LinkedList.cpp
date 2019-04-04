@@ -1,10 +1,11 @@
 //
-// Created by dani on 4/1/19.
+// Created by dani on 4/4/19.
 //
 
-#include "LinkedListOnArray.h"
+#include <bits/exception.h>
+#include "LinkedList.h"
 
-LinkedListOnArray::LinkedListOnArray(){
+LinkedList::LinkedList(){
     dimension = 0;
     head = -1;
     for(int i = 0; i < CAPACITY; ++i){
@@ -13,7 +14,7 @@ LinkedListOnArray::LinkedListOnArray(){
     firstEmpty = 0;
 }
 
-bool LinkedListOnArray::search(TElem element){
+bool LinkedList::search(TElem element){
     int current = head;
     while(current != -1 && buffer[current] != element){
         current = indexOfNext[current];
@@ -21,7 +22,7 @@ bool LinkedListOnArray::search(TElem element){
     return current != -1;
 }
 
-void LinkedListOnArray::add(TElem newElement){
+void LinkedList::add(TElem newElement){
     if(head == -1){
         buffer[0] = newElement;
         indexOfNext[0] = -1;
@@ -36,38 +37,42 @@ void LinkedListOnArray::add(TElem newElement){
     dimension++;
 }
 
-void LinkedListOnArray::remove(TElem elementToRemove){
-    if(search(elementToRemove)){
-        if(dimension == 1){
+void LinkedList::removeFrom(unsigned int index){
+    if(index < size()){
+        if(dimension == 1 && head == 0){
             indexOfNext[head] = EMPTY_INDEX;
             head = -1;
             firstEmpty = 0;
+            dimension--;
         } else {
+            dimension--;
             int current = head;
             int pre = -1;
-            while(current != -1 && buffer[current] != elementToRemove){
+            for(int i = 0; i < index; i++){
                 pre = current;
                 current = indexOfNext[current];
             }
-            if(pre != -1){
+            if(index == 0){
+                int temp = indexOfNext[head];
+                indexOfNext[head] = EMPTY_INDEX;
+                head = temp;
+            } else {
                 indexOfNext[pre] = indexOfNext[current];
+                indexOfNext[current] = EMPTY_INDEX;
             }
-            if(current == head){
-                head = indexOfNext[head];
-            }
-            indexOfNext[current] = EMPTY_INDEX;
-            updateFirstEmpty();
+
         }
-        dimension--;
+    } else {
+        throw std::exception();
     }
 
 }
 
-int LinkedListOnArray::size() const{
+int LinkedList::size(){
     return dimension;
 }
 
-int LinkedListOnArray::indexOfLast(){
+int LinkedList::indexOfLast(){
     if(dimension == 1){
         return head;
     }
@@ -78,7 +83,7 @@ int LinkedListOnArray::indexOfLast(){
     return current;
 }
 
-void LinkedListOnArray::updateFirstEmpty(){
+void LinkedList::updateFirstEmpty(){
     for(int i = 0; i <= dimension + 1; ){
         if(indexOfNext[i] == EMPTY_INDEX){
             firstEmpty = i;
@@ -89,3 +94,16 @@ void LinkedListOnArray::updateFirstEmpty(){
     }
 }
 
+TElem& LinkedList::operator[](unsigned int i){
+    if(i < size()){
+        int index = 0;
+        int currentIndex = head;
+        while(index < i){
+            currentIndex = indexOfNext[currentIndex];
+            index++;
+        }
+        return buffer[currentIndex];
+    } else {
+        throw std::exception();
+    }
+}

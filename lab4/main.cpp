@@ -1,16 +1,20 @@
 #include <iostream>
-#include "LinkedListOnArray.h"
+#include "ShortTest.h"
+#include "ExtendedTest.h"
+#include "LinkedList.h"
 
+using namespace std;
 int main(){
-    LinkedListOnArray list;
-    list.add(5);
-    list.add(9);
-    list.add(22);
-    list.add(6);
-    list.remove(9);
-    list.remove(5);
-    list.add(99);
-    list.remove(22);
-    list.remove(6);
+//    testAll();
+//    testAllExtended();
+    LinkedList list;
+    list.add(1);
+    list.removeFrom(0);
+    list.removeFrom(0);
+    for(int i = 0; i < list.size(); i++){
+        cout << list[i] << " ";
+    }
+    cout << endl;
+
     return 0;
 }

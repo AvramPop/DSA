@@ -177,32 +177,86 @@ BagIterator.cpp.s:
 	$(MAKE) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/BagIterator.cpp.s
 .PHONY : BagIterator.cpp.s
 
-LinkedListOnArray.o: LinkedListOnArray.cpp.o
+ExtendedTest.o: ExtendedTest.cpp.o
 
-.PHONY : LinkedListOnArray.o
+.PHONY : ExtendedTest.o
 
 # target to build an object file
-LinkedListOnArray.cpp.o:
-	$(MAKE) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/LinkedListOnArray.cpp.o
-.PHONY : LinkedListOnArray.cpp.o
+ExtendedTest.cpp.o:
+	$(MAKE) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/ExtendedTest.cpp.o
+.PHONY : ExtendedTest.cpp.o
 
-LinkedListOnArray.i: LinkedListOnArray.cpp.i
+ExtendedTest.i: ExtendedTest.cpp.i
 
-.PHONY : LinkedListOnArray.i
+.PHONY : ExtendedTest.i
 
 # target to preprocess a source file
-LinkedListOnArray.cpp.i:
-	$(MAKE) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/LinkedListOnArray.cpp.i
-.PHONY : LinkedListOnArray.cpp.i
+ExtendedTest.cpp.i:
+	$(MAKE) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/ExtendedTest.cpp.i
+.PHONY : ExtendedTest.cpp.i
 
-LinkedListOnArray.s: LinkedListOnArray.cpp.s
+ExtendedTest.s: ExtendedTest.cpp.s
 
-.PHONY : LinkedListOnArray.s
+.PHONY : ExtendedTest.s
 
 # target to generate assembly for a file
-LinkedListOnArray.cpp.s:
-	$(MAKE) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/LinkedListOnArray.cpp.s
-.PHONY : LinkedListOnArray.cpp.s
+ExtendedTest.cpp.s:
+	$(MAKE) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/ExtendedTest.cpp.s
+.PHONY : ExtendedTest.cpp.s
+
+LinkedList.o: LinkedList.cpp.o
+
+.PHONY : LinkedList.o
+
+# target to build an object file
+LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/LinkedList.cpp.o
+.PHONY : LinkedList.cpp.o
+
+LinkedList.i: LinkedList.cpp.i
+
+.PHONY : LinkedList.i
+
+# target to preprocess a source file
+LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/LinkedList.cpp.i
+.PHONY : LinkedList.cpp.i
+
+LinkedList.s: LinkedList.cpp.s
+
+.PHONY : LinkedList.s
+
+# target to generate assembly for a file
+LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/LinkedList.cpp.s
+.PHONY : LinkedList.cpp.s
+
+ShortTest.o: ShortTest.cpp.o
+
+.PHONY : ShortTest.o
+
+# target to build an object file
+ShortTest.cpp.o:
+	$(MAKE) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/ShortTest.cpp.o
+.PHONY : ShortTest.cpp.o
+
+ShortTest.i: ShortTest.cpp.i
+
+.PHONY : ShortTest.i
+
+# target to preprocess a source file
+ShortTest.cpp.i:
+	$(MAKE) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/ShortTest.cpp.i
+.PHONY : ShortTest.cpp.i
+
+ShortTest.s: ShortTest.cpp.s
+
+.PHONY : ShortTest.s
+
+# target to generate assembly for a file
+ShortTest.cpp.s:
+	$(MAKE) -f CMakeFiles/lab4.dir/build.make CMakeFiles/lab4.dir/ShortTest.cpp.s
+.PHONY : ShortTest.cpp.s
 
 main.o: main.cpp.o
 
@@ -246,9 +300,15 @@ help:
 	@echo "... BagIterator.o"
 	@echo "... BagIterator.i"
 	@echo "... BagIterator.s"
-	@echo "... LinkedListOnArray.o"
-	@echo "... LinkedListOnArray.i"
-	@echo "... LinkedListOnArray.s"
+	@echo "... ExtendedTest.o"
+	@echo "... ExtendedTest.i"
+	@echo "... ExtendedTest.s"
+	@echo "... LinkedList.o"
+	@echo "... LinkedList.i"
+	@echo "... LinkedList.s"
+	@echo "... ShortTest.o"
+	@echo "... ShortTest.i"
+	@echo "... ShortTest.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

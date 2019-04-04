@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/Bag.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/ExtendedTest.h
 
-/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/LinkedListOnArray.h
-Bag.h
-/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/Bag.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/LinkedList.h
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/ShortTest.h
 
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/main.cpp
 iostream
 -
-LinkedListOnArray.h
-/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/LinkedListOnArray.h
+ShortTest.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/ShortTest.h
+ExtendedTest.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/ExtendedTest.h
+LinkedList.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/LinkedList.h
 

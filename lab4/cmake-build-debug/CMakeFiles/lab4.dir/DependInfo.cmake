@@ -6,7 +6,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/Bag.cpp" "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/cmake-build-debug/CMakeFiles/lab4.dir/Bag.cpp.o"
   "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/BagIterator.cpp" "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/cmake-build-debug/CMakeFiles/lab4.dir/BagIterator.cpp.o"
-  "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/LinkedListOnArray.cpp" "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/cmake-build-debug/CMakeFiles/lab4.dir/LinkedListOnArray.cpp.o"
+  "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/ExtendedTest.cpp" "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/cmake-build-debug/CMakeFiles/lab4.dir/ExtendedTest.cpp.o"
+  "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/LinkedList.cpp" "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/cmake-build-debug/CMakeFiles/lab4.dir/LinkedList.cpp.o"
+  "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/ShortTest.cpp" "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/cmake-build-debug/CMakeFiles/lab4.dir/ShortTest.cpp.o"
   "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/main.cpp" "/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/cmake-build-debug/CMakeFiles/lab4.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

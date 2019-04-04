@@ -96,10 +96,22 @@
 		<Unit filename="/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/BagIterator.h">
 			<Option target="lab4"/>
 		</Unit>
-		<Unit filename="/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/LinkedListOnArray.cpp">
+		<Unit filename="/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/ExtendedTest.cpp">
 			<Option target="lab4"/>
 		</Unit>
-		<Unit filename="/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/LinkedListOnArray.h">
+		<Unit filename="/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/ExtendedTest.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/LinkedList.cpp">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/LinkedList.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/ShortTest.cpp">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/ShortTest.h">
 			<Option target="lab4"/>
 		</Unit>
 		<Unit filename="/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab4/main.cpp">
