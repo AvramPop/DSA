@@ -16,7 +16,7 @@ void Bag::add(TElem e){
         frequencies[indexOf(e)]++;
     } else {
         elems.add(e);
-        frequencies.add(e);
+        frequencies.add(1);
     }
 }
 
@@ -27,6 +27,9 @@ bool Bag::remove(TElem e){
             frequencies.removeFrom(indexOf(e));
             elems.removeFrom(indexOf(e));
         }
+        return true;
+    } else {
+        return false;
     }
 }
 
