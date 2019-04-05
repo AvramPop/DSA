@@ -13,7 +13,7 @@ class Bag {
 private:
     LinkedList elems;
     LinkedList frequencies;
-    int indexOf(TElem e);
+    int indexOf(TElem e) const;
 
 public:
 
@@ -23,15 +23,15 @@ public:
 
     bool remove(TElem e);
 
-    bool search(TElem e);
+    bool search(TElem e) const;
 
-    int nrOccurrences(TElem e);
+    int nrOccurrences(TElem e) const;
 
-    int size();
+    int size() const;
 
-    BagIterator iterator();
+    BagIterator iterator() const;
 
-    bool isEmpty();
+    bool isEmpty() const;
 
     ~Bag(){};
 

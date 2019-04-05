@@ -5,7 +5,7 @@
 #include "BagIterator.h"
 
 
-BagIterator::BagIterator(Bag &b) : bag(b){
+BagIterator::BagIterator(const Bag &b) : bag(b){
     index = 0;
     freq = 1;
     elems = bag.elems;
@@ -14,7 +14,7 @@ BagIterator::BagIterator(Bag &b) : bag(b){
 
 TElem BagIterator::getCurrent(){
     if(valid()){
-        return elems[index];
+        return elems.at(index);
     } else {
         throw std::exception();
     }
@@ -26,7 +26,7 @@ bool BagIterator::valid(){
 
 void BagIterator::next(){
     if(valid()){
-        if(freq < frequencies[index]){
+        if(freq < frequencies.at(index)){
             freq++;
         } else {
             index++;

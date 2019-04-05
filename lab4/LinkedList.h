@@ -23,12 +23,12 @@ private:
 
 public:
     LinkedList();
-    bool search(TElem element);
+    bool search(TElem element) const;
     void add(TElem newElement);
     void removeFrom(unsigned int index);
-    int size();
+    int size() const;
     TElem& operator[](unsigned i);
-
+    TElem& at(unsigned i);
     friend std::ostream &operator<<(std::ostream &os, const LinkedList &list);
 
 };

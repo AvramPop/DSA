@@ -13,7 +13,7 @@ Bag::Bag(){
 
 void Bag::add(TElem e){
     if(elems.search(e)){
-        frequencies[indexOf(e)]++;
+        const_cast<Bag*>(this)->frequencies.at(indexOf(e))++;
     } else {
         elems.add(e);
         frequencies.add(1);
@@ -22,8 +22,8 @@ void Bag::add(TElem e){
 
 bool Bag::remove(TElem e){
     if(search(e)){
-        frequencies[indexOf(e)]--;
-        if(frequencies[indexOf(e)] == 0){
+        frequencies.at(indexOf(e))--;
+        if(const_cast<Bag*>(this)->frequencies.at(indexOf(e)) == 0){
             frequencies.removeFrom(indexOf(e));
             elems.removeFrom(indexOf(e));
         }
@@ -33,38 +33,38 @@ bool Bag::remove(TElem e){
     }
 }
 
-bool Bag::search(TElem e){
+bool Bag::search(TElem e) const{
     return elems.search(e);
 }
 
-int Bag::nrOccurrences(TElem e){
+int Bag::nrOccurrences(TElem e) const{
     if(search(e)){
-        return frequencies[indexOf(e)];
+        return const_cast<Bag*>(this)->frequencies.at(indexOf(e));
     } else {
         return 0;
     }
 }
 
-int Bag::size(){
+int Bag::size() const{
     int numberOfElems = 0;
     for(int i = 0; i < elems.size(); i++){
-        numberOfElems += frequencies[i];
+        numberOfElems += const_cast<Bag*>(this)->frequencies.at(i);
     }
     return numberOfElems;
 }
 
-BagIterator Bag::iterator(){
+BagIterator Bag::iterator() const{
     return BagIterator(*this);
 }
 
-bool Bag::isEmpty(){
+bool Bag::isEmpty() const{
     return size() == 0;
 }
 
-int Bag::indexOf(TElem e){
+int Bag::indexOf(TElem e) const{
     int index = -1;
     for(int i = 0; i < elems.size(); i++){
-        if(elems[i] == e){
+        if(const_cast<Bag*>(this)->elems.at(i) == e){
             index = i;
         }
     }

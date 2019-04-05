@@ -14,7 +14,7 @@ LinkedList::LinkedList(){
     firstEmpty = 0;
 }
 
-bool LinkedList::search(TElem element){
+bool LinkedList::search(TElem element) const{
     int current = head;
     while(current != -1 && buffer[current] != element){
         current = indexOfNext[current];
@@ -68,7 +68,7 @@ void LinkedList::removeFrom(unsigned int index){
 
 }
 
-int LinkedList::size(){
+int LinkedList::size() const{
     return dimension;
 }
 
@@ -95,6 +95,20 @@ void LinkedList::updateFirstEmpty(){
 }
 
 TElem& LinkedList::operator[](unsigned int i){
+    if(i < size()){
+        int index = 0;
+        int currentIndex = head;
+        while(index < i){
+            currentIndex = indexOfNext[currentIndex];
+            index++;
+        }
+        return buffer[currentIndex];
+    } else {
+        throw std::exception();
+    }
+}
+
+TElem& LinkedList::at(unsigned int i){
     if(i < size()){
         int index = 0;
         int currentIndex = head;

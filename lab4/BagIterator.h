@@ -13,10 +13,10 @@ class BagIterator{
     friend class Bag;
 
 private:
-    Bag &bag;
+    const Bag &bag;
     int index;
     int freq;
-    BagIterator(Bag &b);
+    BagIterator(const Bag &b);
     LinkedList elems;
     LinkedList frequencies;
 
