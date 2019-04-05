@@ -13,9 +13,12 @@ class BagIterator{
     friend class Bag;
 
 private:
-    const Bag &bag;
-
-    BagIterator(const Bag &b);
+    Bag &bag;
+    int index;
+    int freq;
+    BagIterator(Bag &b);
+    LinkedList elems;
+    LinkedList frequencies;
 
 public:
     TElem getCurrent();

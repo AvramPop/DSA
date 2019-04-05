@@ -5,6 +5,8 @@
 #ifndef LAB4_LINKEDLIST_H
 #define LAB4_LINKEDLIST_H
 
+#include <ostream>
+
 #define CAPACITY 100000
 #define EMPTY_INDEX -5
 typedef int TElem;
@@ -26,6 +28,8 @@ public:
     void removeFrom(unsigned int index);
     int size();
     TElem& operator[](unsigned i);
+
+    friend std::ostream &operator<<(std::ostream &os, const LinkedList &list);
 
 };
 

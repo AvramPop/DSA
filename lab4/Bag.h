@@ -11,7 +11,9 @@ class Bag {
     friend class BagIterator;
 
 private:
-
+    LinkedList elems;
+    LinkedList frequencies;
+    int indexOf(TElem e);
 
 public:
 
@@ -21,17 +23,18 @@ public:
 
     bool remove(TElem e);
 
-    bool search(TElem e) const;
+    bool search(TElem e);
 
-    int nrOccurrences(TElem e) const;
+    int nrOccurrences(TElem e);
 
-    int size() const;
+    int size();
 
-    BagIterator iterator() const;
+    BagIterator iterator();
 
-    bool isEmpty() const;
+    bool isEmpty();
 
-    ~Bag();
+    ~Bag(){};
+
 };
 
 #endif //LAB4_BAG_H

@@ -7,37 +7,63 @@
 
 
 Bag::Bag(){
-
+    elems = LinkedList();
+    frequencies = LinkedList();
 }
 
 void Bag::add(TElem e){
-
+    if(elems.search(e)){
+        frequencies[indexOf(e)]++;
+    } else {
+        elems.add(e);
+        frequencies.add(e);
+    }
 }
 
 bool Bag::remove(TElem e){
-    return false;
+    if(search(e)){
+        frequencies[indexOf(e)]--;
+        if(frequencies[indexOf(e)] == 0){
+            frequencies.removeFrom(indexOf(e));
+            elems.removeFrom(indexOf(e));
+        }
+    }
 }
 
-bool Bag::search(TElem e) const{
-    return false;
+bool Bag::search(TElem e){
+    return elems.search(e);
 }
 
-int Bag::nrOccurrences(TElem e) const{
-    return 0;
+int Bag::nrOccurrences(TElem e){
+    if(search(e)){
+        return frequencies[indexOf(e)];
+    } else {
+        return 0;
+    }
 }
 
-int Bag::size() const{
-    return 0;
+int Bag::size(){
+    int numberOfElems = 0;
+    for(int i = 0; i < elems.size(); i++){
+        numberOfElems += frequencies[i];
+    }
+    return numberOfElems;
 }
 
-BagIterator Bag::iterator() const{
-    return BagIterator(Bag());
+BagIterator Bag::iterator(){
+    return BagIterator(*this);
 }
 
-bool Bag::isEmpty() const{
-    return false;
+bool Bag::isEmpty(){
+    return size() == 0;
 }
 
-Bag::~Bag(){
-
+int Bag::indexOf(TElem e){
+    int index = -1;
+    for(int i = 0; i < elems.size(); i++){
+        if(elems[i] == e){
+            index = i;
+        }
+    }
+    return index;
 }

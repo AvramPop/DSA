@@ -107,3 +107,11 @@ TElem& LinkedList::operator[](unsigned int i){
         throw std::exception();
     }
 }
+
+std::ostream &operator<<(std::ostream &os, const LinkedList &list){
+    for(int i = 0; i < list.dimension; i++){
+        os << list.buffer[i] << " ";
+    }
+    os << '\n';
+    return os;
+}
