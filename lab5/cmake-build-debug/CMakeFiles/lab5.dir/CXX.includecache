@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab5/Heap.h
+cmath
+-
+vector
+-
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab5/Test.cpp
+Test.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab5/Test.h
+vector
+-
+assert.h
+-
+numeric
+-
+iostream
+-
+algorithm
+-
+Heap.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab5/Heap.h
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab5/Test.h
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab5/main.cpp
+iostream
+-
+algorithm
+-
+Heap.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab5/Heap.h
+Test.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab5/Test.h
+
