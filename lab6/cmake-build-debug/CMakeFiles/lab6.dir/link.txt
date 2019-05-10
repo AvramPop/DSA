@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/lab6.dir/main.cpp.o CMakeFiles/lab6.dir/Bag.cpp.o CMakeFiles/lab6.dir/BagIterator.cpp.o CMakeFiles/lab6.dir/ShortTest.cpp.o CMakeFiles/lab6.dir/ExtendedTest.cpp.o  -o lab6 

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/Bag.h
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/BagIterator.cpp
+bits/exception.h
+-
+BagIterator.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/BagIterator.h
+iostream
+-
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/BagIterator.h
+Bag.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/Bag.h
+vector
+-
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/ExtendedTest.cpp
+ExtendedTest.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/ExtendedTest.h
+assert.h
+-
+Bag.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/Bag.h
+BagIterator.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/BagIterator.h
+iostream
+-
+vector
+-
+exception
+-
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/ExtendedTest.h
+
