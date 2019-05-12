@@ -6,7 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/Bag.cpp
+cmath
+-
+Bag.h
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/Bag.h
+BagIterator.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/BagIterator.h
+cmath
+-
+iostream
+-
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/Bag.h
+BagIterator.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/BagIterator.h
 
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/BagIterator.cpp
 bits/exception.h
@@ -38,5 +52,25 @@ vector
 exception
 -
 
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/ExtendedTest.h
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/ShortTest.cpp
+ShortTest.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/ShortTest.h
+assert.h
+-
+BagIterator.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/BagIterator.h
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/ShortTest.h
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/main.cpp
+iostream
+-
+BagIterator.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/BagIterator.h
+ShortTest.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/ShortTest.h
+ExtendedTest.h
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab6/ExtendedTest.h
 

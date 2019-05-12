@@ -8,15 +8,16 @@
 #include "Bag.h"
 #include <vector>
 class Bag;
+typedef int TElem;
 class BagIterator {
     friend class Bag;
 
 private:
     BagIterator(const Bag& b);
     const Bag& b;
-    std::vector<TElem> tempList;
+   // std::vector<TElem> tempList;
     int currentIndex;
-    int bagSize;
+   // int bagSize;
 
 public:
     void first();

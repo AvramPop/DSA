@@ -5,6 +5,8 @@
 #ifndef LAB6_BAG_H
 #define LAB6_BAG_H
 
+#include "BagIterator.h"
+
 #define ABSENT_ELEMENT 2147483644
 #define DELETED_ELEMENT 2147483641
 /*
@@ -40,6 +42,8 @@ public:
 
     bool isPrime(int number);
 };
+
+
 
 
 #endif //LAB6_BAG_H
