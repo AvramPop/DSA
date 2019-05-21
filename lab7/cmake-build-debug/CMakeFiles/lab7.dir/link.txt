@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/lab7.dir/main.cpp.o CMakeFiles/lab7.dir/SortedBag.cpp.o CMakeFiles/lab7.dir/SortedBagIterator.cpp.o CMakeFiles/lab7.dir/ExtendedTest.cpp.o CMakeFiles/lab7.dir/ShortTest.cpp.o  -o lab7 
