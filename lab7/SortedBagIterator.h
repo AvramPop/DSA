@@ -7,6 +7,7 @@
 
 
 #include "SortedBag.h"
+#include <stack>
 
 class SortedBag;
 typedef int TElem;
@@ -15,6 +16,8 @@ class SortedBagIterator{
 
 private:
     const SortedBag &bag;
+    std::stack<int> st;
+    int currentNode;
     SortedBagIterator(const SortedBag &b);
 public:
     TElem getCurrent();

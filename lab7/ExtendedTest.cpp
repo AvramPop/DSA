@@ -235,11 +235,11 @@ void testQuantity(Relation r) {
 
 
 void testAllExtended() {
-	testCreate();
+	//testCreate();
 	testAdd(relation2);
-	testAdd(relation3);
-	testRemove(relation2);
-	testRemove(relation3);
-	testQuantity(relation2);
-	testQuantity(relation3);
+	//testAdd(relation3);
+	//testRemove(relation2);
+	//testRemove(relation3);
+	//testQuantity(relation2);
+	//testQuantity(relation3);
 }
