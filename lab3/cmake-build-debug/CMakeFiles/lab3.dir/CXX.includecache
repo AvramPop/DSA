@@ -14,14 +14,6 @@ SortedMap.h
 
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/ShortTest.h
 
-/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SortedDoublyLinkedList.cpp
-cstdio
--
-SortedDoublyLinkedList.h
-/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SortedDoublyLinkedList.h
-iostream
--
-
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SortedDoublyLinkedList.h
 utility
 -
@@ -53,4 +45,6 @@ ShortTest.h
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/ShortTest.h
 ExtendedTest.h
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/ExtendedTest.h
+SMIterator.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab3/SMIterator.h
 

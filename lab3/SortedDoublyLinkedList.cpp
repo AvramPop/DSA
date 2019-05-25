@@ -117,3 +117,5 @@ SortedDoublyLinkedList::SortedDoublyLinkedList(){
     tail = NULL;
     length = 0;
 }
+
+SortedDoublyLinkedList::~SortedDoublyLinkedList(){}

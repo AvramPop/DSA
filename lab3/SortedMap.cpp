@@ -46,7 +46,13 @@ bool SortedMap::isEmpty() const{
     return buffer.size() == 0;
 }
 
-SortedMap::~SortedMap(){}
+SortedMap::~SortedMap(){
+//    Node* currentNode = buffer.head->next;
+//    while(currentNode){
+//        delete currentNode->previous;
+//        currentNode = currentNode->previous;
+//    }
+}
 
 SortedMap::SortedMap(Relation r){
     buffer.setRelation(r);
@@ -55,3 +61,4 @@ SortedMap::SortedMap(Relation r){
 SMIterator SortedMap::iterator() const{
     return SMIterator(*this);
 }
+

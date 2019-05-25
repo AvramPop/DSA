@@ -32,6 +32,7 @@ public:
     BagIterator iterator() const;
 
     bool isEmpty() const;
+    Bag intersection(const Bag& b);
 
     ~Bag(){};
 

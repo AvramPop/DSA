@@ -1,32 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="untitled" targetName="untitled" />
+    </generated>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="$USER_HOME$/Desktop/ems" value="1489674386000" />
-      </map>
-    </option>
-    <option name="externalProjectsViewState">
-      <projects_view />
+  <component name="ChangeListManager">
+    <list default="true" id="57cef781-333e-4571-a2a2-389dd78da42f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab5/.idea/lab5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5/Heap.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5/Heap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5/Test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5/Test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/Bag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/Bag.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/Bag.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/Bag.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/BagIterator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/BagIterator.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/lab1" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/lab1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/SortedDoublyLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/SortedDoublyLinkedList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/SortedDoublyLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/SortedDoublyLinkedList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/SortedMap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/SortedMap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/ExtendedTest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/ExtendedTest.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/SMIterator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/SMIterator.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/ShortTest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/ShortTest.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/SortedDoublyLinkedList.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/SortedDoublyLinkedList.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/SortedMap.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/SortedMap.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/cmake-build-debug/CMakeFiles/lab3.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/cmake-build-debug/lab3" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/cmake-build-debug/lab3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/Bag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/Bag.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/Bag.h" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/Bag.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/BagIterator.h" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/BagIterator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/LinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/LinkedList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/Bag.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/Bag.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/BagIterator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/BagIterator.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/ExtendedTest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/ExtendedTest.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/ShortTest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/ShortTest.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/CMakeFiles/lab4.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/cmake-build-debug/lab4" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/cmake-build-debug/lab4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/main.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding>
+                <element signature="e#21#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.cpp" />
+      </list>
     </option>
   </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/untitled.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1366" />
+    <option name="y" value="-1" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -106,6 +237,78 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration name="untitled" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled" TARGET_NAME="untitled" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="untitled" RUN_TARGET_NAME="untitled">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57cef781-333e-4571-a2a2-389dd78da42f" name="Default Changelist" comment="" />
+      <created>1555173431594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555173431594</updated>
+      <workItem from="1555173432746" duration="1389000" />
+      <workItem from="1555329557834" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1401000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1366" y="-1" width="1920" height="1080" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2529349" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="e#21#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

@@ -6,6 +6,10 @@
 
 
 SortedBagIterator::SortedBagIterator(const SortedBag &b) : bag(b){
+    if(bag.size() == 0){
+        currentNode = -1;
+        return;
+    }
     int node = bag.buffer.root;
     while(node != -1){
         st.push(node);

@@ -23,19 +23,20 @@ SortedBag::SortedBag(Relation r) : relation(r){
 }
 
 void SortedBag::add(TComp e){
-    if(buffer.size == buffer.capacity){
+    if(buffer.size == buffer.capacity - 1){
         resize();
     }
-    insertIntoTree(buffer.root, e);
+    std::cout << "adding " << e << std::endl;
+    if(buffer.size == 0){
+        buffer.nodes[0].info = e;
+        buffer.firstEmpty = 1;
+    } else {
+        insertIntoTree(buffer.root, e);
+    }
     buffer.size++;
 }
 
 void SortedBag::insertIntoTree(int root, TComp e){
-    if(buffer.size == 0){
-        buffer.nodes[root].info = e;
-        updateFirstEmpty();
-        return;
-    }
     if(!relation(buffer.nodes[root].info, e)){
         if(buffer.nodes[root].left == -1){
             buffer.nodes[buffer.firstEmpty].info = e;
@@ -57,15 +58,29 @@ void SortedBag::insertIntoTree(int root, TComp e){
 }
 
 bool SortedBag::remove(TComp e){
-    return removeUtil(buffer.root, e) != -1;
+    if(size() == 0) return false;
+    if(removeUtil(buffer.root, e) == -1) return false;
+    buffer.size--;
+    return true;
 }
 
 bool SortedBag::search(TComp e) const{
+    if(size() == 0) return false;
     return searchUtil(buffer.root, e);
 }
 
 int SortedBag::nrOccurrences(TComp e) const{
-    return 0;
+    if(size() == 0) return 0;
+    int count = 0;
+    SortedBagIterator it = iterator();
+    while(it.valid()){
+        if(it.getCurrent() == e){
+            count++;
+        }
+        it.next();
+    }
+    return count;
+
 }
 
 int SortedBag::size() const{

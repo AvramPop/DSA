@@ -54,8 +54,17 @@
       <change beforePath="$PROJECT_DIR$/../lab4/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab5/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Bag.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Bag.h" beforeDir="false" afterPath="$PROJECT_DIR$/Bag.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BagIterator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BagIterator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab6.dir/Bag.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab6.dir/Bag.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab6.dir/BagIterator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab6.dir/BagIterator.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab6.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab6.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab6.dir/ExtendedTest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab6.dir/ExtendedTest.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab6.dir/ShortTest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab6.dir/ShortTest.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab6.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab6.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lab6" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lab6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/main.cpp" afterDir="false" />
     </list>
@@ -75,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bag.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+            <state relative-caret-position="990">
+              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
               <folding>
                 <element signature="e#37#53#0" expanded="true" />
               </folding>
@@ -87,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BagIterator.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
               <folding>
                 <element signature="e#92#108#0" expanded="true" />
               </folding>
@@ -97,10 +106,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bag.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="738">
+              <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -108,8 +129,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BagIterator.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+            <state relative-caret-position="127">
+              <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
               <folding>
                 <element signature="e#37#64#0" expanded="true" />
               </folding>
@@ -143,19 +164,20 @@
         <option value="$PROJECT_DIR$/ShortTest.h" />
         <option value="$PROJECT_DIR$/ShortTest.cpp" />
         <option value="$PROJECT_DIR$/ExtendedTest.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/Bag.cpp" />
         <option value="$PROJECT_DIR$/ExtendedTest.cpp" />
         <option value="$PROJECT_DIR$/BagIterator.h" />
         <option value="$PROJECT_DIR$/Bag.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/BagIterator.cpp" />
+        <option value="$PROJECT_DIR$/Bag.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
     <option name="y" value="-1" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -310,15 +332,17 @@
       <workItem from="1557473364861" duration="11000" />
       <workItem from="1557486583187" duration="4969000" />
       <workItem from="1557511215592" duration="606000" />
-      <workItem from="1557688195047" duration="263000" />
+      <workItem from="1557688195047" duration="646000" />
+      <workItem from="1557744665369" duration="2017000" />
+      <workItem from="1557867475789" duration="66000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22450000" />
+    <option name="totallyTimeSpent" value="24916000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1080" extended-state="6" />
+    <frame x="1920" y="-1" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.31483456" />
@@ -326,18 +350,18 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41925466" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41770187" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48913044" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32868218" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" />
       <window_info anchor="bottom" id="Profiler" order="12" weight="0.3294979" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32763976" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32608697" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -439,16 +463,6 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ShortTest.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -471,8 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bag.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        <state relative-caret-position="990">
+          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
           <folding>
             <element signature="e#37#53#0" expanded="true" />
           </folding>
@@ -481,25 +495,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BagIterator.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding>
             <element signature="e#92#108#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Bag.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="738">
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BagIterator.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+        <state relative-caret-position="127">
+          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
           <folding>
             <element signature="e#37#64#0" expanded="true" />
           </folding>

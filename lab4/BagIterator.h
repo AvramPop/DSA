@@ -21,13 +21,18 @@ private:
     LinkedList frequencies;
 
 public:
+    //theta(1)
     TElem getCurrent();
 
+    //theta(1)
     bool valid();
 
+    //theta(1)
     void next();
 
+    //theta(1)
     void first();
+
 };
 
 

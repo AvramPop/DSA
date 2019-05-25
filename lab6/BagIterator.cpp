@@ -41,7 +41,7 @@
 //        throw std::exception();
 //    }
 //}
-
+//O(m)
 BagIterator::BagIterator(const Bag &b) : b(b){
     if(b.isEmpty()) currentIndex = b.dimension + 5;
     else{
@@ -51,7 +51,7 @@ BagIterator::BagIterator(const Bag &b) : b(b){
         }
     }
 }
-
+//O(m)
 void BagIterator::first(){
     if(b.isEmpty()) currentIndex = b.dimension + 5;
     else{
@@ -61,7 +61,7 @@ void BagIterator::first(){
         }
     }
 }
-
+//O(m)
 void BagIterator::next(){
     if(valid()){
         currentIndex++;
@@ -72,11 +72,11 @@ void BagIterator::next(){
         throw std::exception();
     }
 }
-
+//theta(1)
 bool BagIterator::valid() const{
     return currentIndex < b.dimension;
 }
-
+//theta(1)
 TElem BagIterator::getCurrent() const{
     if(valid()){
         return b.hashTable[currentIndex];

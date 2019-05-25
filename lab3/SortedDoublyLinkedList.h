@@ -26,6 +26,7 @@ private:
     int length;
     Relation relation;
     friend class SMIterator;
+    friend class SortedMap;
 public:
     void setRelation(Relation r);
     SortedDoublyLinkedList(Relation relation);
@@ -34,6 +35,8 @@ public:
     void remove(TKey elementToRemove);
     TValue search(TKey element) const;
     int size()const;
+
+    ~SortedDoublyLinkedList();
 };
 
 

@@ -12,7 +12,7 @@ Bag::Bag(){
     leastElement = 0;
 }
 
-// O(e) ?
+// O(n) n is the dimension of the interval
 void Bag::add(TElem e){
     if(e >= 0){
         if(e < bufferSize - leastElement){

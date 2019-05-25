@@ -87,6 +87,7 @@ void testAdd(Relation r) {
 	SortedBag sb(r);
 	for (int i = 0; i < 100; i++) {
 		sb.add(i);
+		//cout << i << endl;
 	}
 	assert(sb.size() == 100);
 	assert(sb.isEmpty() == false);
@@ -94,6 +95,7 @@ void testAdd(Relation r) {
 
 	for (int i = 200; i >= -200; i--) {
 		sb.add(i);
+	//	cout << "i: " << i << endl;
 	}
 	assert(sb.size() == 501);
 	testIterator(sb, r);
@@ -107,6 +109,7 @@ void testAdd(Relation r) {
 			assert(nrA == 0);
 		}
 		else if (i >= -200 && i < 0) {
+		    cout << "i: " << i << endl;
 			assert(exista == true);
 			assert(nrA == 1);
 		}
@@ -235,11 +238,11 @@ void testQuantity(Relation r) {
 
 
 void testAllExtended() {
-	//testCreate();
+	testCreate();
 	testAdd(relation2);
-	//testAdd(relation3);
-	//testRemove(relation2);
-	//testRemove(relation3);
-	//testQuantity(relation2);
-	//testQuantity(relation3);
+//	testAdd(relation3);
+//	testRemove(relation2);
+//	testRemove(relation3);
+//	testQuantity(relation2);
+//	testQuantity(relation3);
 }

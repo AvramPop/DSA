@@ -27,6 +27,7 @@ CMakeFiles/lab4.dir/ShortTest.cpp.o: ../ShortTest.cpp
 CMakeFiles/lab4.dir/ShortTest.cpp.o: ../ShortTest.h
 
 CMakeFiles/lab4.dir/main.cpp.o: ../Bag.h
+CMakeFiles/lab4.dir/main.cpp.o: ../BagIterator.h
 CMakeFiles/lab4.dir/main.cpp.o: ../ExtendedTest.h
 CMakeFiles/lab4.dir/main.cpp.o: ../LinkedList.h
 CMakeFiles/lab4.dir/main.cpp.o: ../ShortTest.h

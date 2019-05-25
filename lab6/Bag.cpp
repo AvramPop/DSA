@@ -7,7 +7,7 @@
 #include "BagIterator.h"
 #include <cmath>
 #include <iostream>
-
+//theta(m)
 Bag::Bag(){
     dimension = 2999;
     currentSize = 0;
@@ -16,11 +16,12 @@ Bag::Bag(){
         hashTable[i] = ABSENT_ELEMENT;
     }
 }
-
+//O(m^2)
 void Bag::add(TElem e){
     if(this->currentSize == dimension){
         rehash();
-    }int i = 0;
+    }
+    int i = 0;
     int pos = hash(e, i);
     while(i < dimension && hashTable[pos] != ABSENT_ELEMENT && hashTable[pos] != DELETED_ELEMENT){
         i++;
@@ -29,7 +30,7 @@ void Bag::add(TElem e){
     hashTable[pos] = e;
     currentSize++;
 }
-
+//O(m)
 bool Bag::remove(TElem e){
 
     int i = 0;
@@ -46,7 +47,7 @@ bool Bag::remove(TElem e){
         return true;
     }
 }
-
+//O(m)
 int Bag::nrOccurrences(TElem e) const{
     int i = 0;
     int count = 0;
@@ -60,7 +61,7 @@ int Bag::nrOccurrences(TElem e) const{
     }
     return count;
 }
-
+//O(m)
 bool Bag::search(TElem e) const{
     int i = 0;
     int pos = hash(e, i);
@@ -73,37 +74,37 @@ bool Bag::search(TElem e) const{
     }
     return true;
 }
-
+//theta(1)
 int Bag::size() const{
     return currentSize;
 }
-
+//theta(1)
 BagIterator Bag::iterator() const{
     return BagIterator(*this);
 }
-
+//theta(1)
 bool Bag::isEmpty() const{
     return size() == 0;
 }
-
+//theta(m)
 Bag::~Bag(){
     delete [] hashTable;
 }
-
+//theta(1)
 int Bag::hash1(TElem elem) const{
     elem = std::abs(elem);
     return elem % dimension;
 }
-
+//theta(1)
 int Bag::hash2(TElem elem) const{
     elem = std::abs(elem);
     return 1 + (elem % (dimension - 1));
 }
-
+//theta(1)
 int Bag::hash(TElem elem, int i) const{
     return (hash1(elem) + i * hash2(elem)) % dimension;
 }
-
+//O(m^2)
 void Bag::rehash(){
     int prime = smallerPrimeBiggerThan(2 * dimension);
     TElem *temp = new TElem[prime];
@@ -143,4 +144,11 @@ bool Bag::isPrime(int number){
         if(number % d == 0) return false;
     }
     return true;
+}
+//theta(m)
+void Bag::empty(){
+    for(int i = 0; i < dimension; i++){
+        hashTable[i] = ABSENT_ELEMENT;
+    }
+    currentSize = 0;
 }

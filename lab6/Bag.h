@@ -39,7 +39,7 @@ public:
     bool isEmpty() const;
     ~Bag();
     int smallerPrimeBiggerThan(int number);
-
+    void empty();
     bool isPrime(int number);
 };
 

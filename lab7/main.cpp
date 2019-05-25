@@ -11,20 +11,23 @@ bool rel(TComp r1, TComp r2) {
 }
 int main(){
     SortedBag bag(rel);
-    bag.add(13);
-    bag.add(5);
-    bag.add(17);
-    bag.add(9);
-    bag.add(9);
-    bag.add(90);
-
-    cout << bag.search(13);
-    bag.remove(13);
-    cout << endl << bag.search(13);
+//    bag.add(13);
+//    bag.add(5);
+//    bag.add(17);
+//    bag.add(9);
+//    bag.add(9);
+//    bag.add(90);
+//
+//    cout << bag.search(13);
+//    bag.remove(13);
+//    cout << endl << bag.search(13);
+//    cout << bag.nrOccurrences(13);
+//    cout << bag.nrOccurrences(9);
 //    cout << endl << bag.search(15);
 //    cout << endl << bag.search(9);
 //    cout << endl << bag.search(91);
-//    testAllExtended();
+    testAllExtended();
+    cout << "well done!";
 //    SortedBagIterator it = bag.iterator();
 //    while(it.valid()){
 //        cout << it.getCurrent() << " ";

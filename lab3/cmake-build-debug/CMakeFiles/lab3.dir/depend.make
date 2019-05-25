@@ -27,6 +27,7 @@ CMakeFiles/lab3.dir/SortedMap.cpp.o: ../SortedMap.cpp
 CMakeFiles/lab3.dir/SortedMap.cpp.o: ../SortedMap.h
 
 CMakeFiles/lab3.dir/main.cpp.o: ../ExtendedTest.h
+CMakeFiles/lab3.dir/main.cpp.o: ../SMIterator.h
 CMakeFiles/lab3.dir/main.cpp.o: ../ShortTest.h
 CMakeFiles/lab3.dir/main.cpp.o: ../SortedDoublyLinkedList.h
 CMakeFiles/lab3.dir/main.cpp.o: ../SortedMap.h

@@ -30,7 +30,6 @@ public:
     TElem& operator[](unsigned i);
     TElem& at(unsigned i);
     friend std::ostream &operator<<(std::ostream &os, const LinkedList &list);
-
 };
 
 
