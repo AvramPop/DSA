@@ -6,15 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab7/SortedBag.cpp
-iosfwd
--
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab7/ExtendedTest.cpp
+ShortTest.h
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab7/ShortTest.h
 SortedBag.h
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab7/SortedBag.h
-iostream
--
 SortedBagIterator.h
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab7/SortedBagIterator.h
+assert.h
+-
+iostream
+-
+exception
+-
+
+/home/dani/Desktop/code/faculta/an1/sem2/DSA/lab7/ShortTest.h
 
 /home/dani/Desktop/code/faculta/an1/sem2/DSA/lab7/SortedBag.h
 SortedBagIterator.h

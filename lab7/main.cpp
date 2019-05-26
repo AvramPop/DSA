@@ -1,6 +1,8 @@
 #include <iostream>
 #include "SortedBag.h"
+#include "ShortTest.h"
 #include "ExtendedTest.h"
+//#include "ExtendedTest.h"
 
 using namespace std;
 /*
@@ -10,22 +12,12 @@ bool rel(TComp r1, TComp r2) {
     return r1 <= r2;
 }
 int main(){
-    SortedBag bag(rel);
-//    bag.add(13);
-//    bag.add(5);
-//    bag.add(17);
-//    bag.add(9);
-//    bag.add(9);
-//    bag.add(90);
-//
-//    cout << bag.search(13);
-//    bag.remove(13);
-//    cout << endl << bag.search(13);
-//    cout << bag.nrOccurrences(13);
-//    cout << bag.nrOccurrences(9);
-//    cout << endl << bag.search(15);
-//    cout << endl << bag.search(9);
-//    cout << endl << bag.search(91);
+//    SortedBag bag(rel);
+//    bag.add(1);
+//    bag.add(2);
+//   // cout << bag.nrOccurrences(1);
+//    bag.remove(1);
+  //  cout << bag.search(1);
     testAllExtended();
     cout << "well done!";
 //    SortedBagIterator it = bag.iterator();

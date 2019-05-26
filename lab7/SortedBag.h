@@ -4,7 +4,7 @@
 
 #ifndef LAB7_SORTEDBAG_H
 #define LAB7_SORTEDBAG_H
-
+#define DEFAULT_NULL -999999
 
 #include "SortedBagIterator.h"
 
@@ -14,16 +14,9 @@ typedef bool(*Relation)(TComp, TComp);
 class SortedBagIterator;
 
 struct Node{
-    int left, right, parent;
+    int left, right;
     TComp info;
 
-//    bool operator==(const Node& otherNode){
-//        return left == otherNode.left && otherNode.right == right && otherNode.info == info;
-//    }
-//
-//    bool operator!=(const Node& otherNode){
-//        return !(info == otherNode.info);
-//    }
     bool operator==(const Node &rhs) const;
 
     bool operator!=(const Node &rhs) const;
@@ -40,8 +33,7 @@ class SortedBag {
 private:
     Relation relation;
     BinarySearchTree buffer;
-    Node null;
-    void insertIntoTree(int root, TComp e);
+    int insertIntoTree(int root, TComp e);
 
 public:
     SortedBag(Relation r);
@@ -60,9 +52,9 @@ public:
 
     bool searchUtil(int root, TComp e) const;
 
-    int removeUtil(int root, TComp e);
+    int removeUtil(int root, TComp e, bool& exists);
 
-    int minimum(int right);
+    int minimum(int root);
 };
 
 

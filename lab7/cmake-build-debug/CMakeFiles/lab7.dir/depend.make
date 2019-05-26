@@ -20,6 +20,7 @@ CMakeFiles/lab7.dir/SortedBagIterator.cpp.o: ../SortedBagIterator.cpp
 CMakeFiles/lab7.dir/SortedBagIterator.cpp.o: ../SortedBagIterator.h
 
 CMakeFiles/lab7.dir/main.cpp.o: ../ExtendedTest.h
+CMakeFiles/lab7.dir/main.cpp.o: ../ShortTest.h
 CMakeFiles/lab7.dir/main.cpp.o: ../SortedBag.h
 CMakeFiles/lab7.dir/main.cpp.o: ../SortedBagIterator.h
 CMakeFiles/lab7.dir/main.cpp.o: ../main.cpp
